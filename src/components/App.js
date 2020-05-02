@@ -16,7 +16,6 @@ import Foundation from './Pages/Foundation';
 import Sponsors from './Pages/Sponsors';
 import Events from './Pages/Events';
 import Contact from './Pages/Contact';
-import Body from './Body/Body';
 import Footer from './Footer/Footer';
 
 library.add(fab, faCheckSquare, faCoffee)
@@ -26,35 +25,32 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header /> 
-        <Body />
+        <Header />  
+          {/* A <Switch> looks through its children <Route>s and
+           renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/events">
+            <Events />
+          </Route>
+          <Route path="/sponsors">
+            <Sponsors />
+          </Route>
+          <Route path="/foundation">
+            <Foundation />
+          </Route>
+          <Route path="/story">
+            <Story />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+         
+        </Switch>
         <Footer />
       </div>
-
-      
-      {/* A <Switch> looks through its children <Route>s and
-      renders the first one that matches the current URL. */}
-      <Switch>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/events">
-          <Events />
-        </Route>
-        <Route path="/sponsors">
-          <Sponsors />
-        </Route>
-        <Route path="/foundation">
-          <Foundation />
-        </Route>
-        <Route path="/story">
-          <Story />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-       
-      </Switch>
     </Router>
   );
 }

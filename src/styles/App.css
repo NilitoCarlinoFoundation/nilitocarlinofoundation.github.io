@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #141414; 
+  color: #fff; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*@media (prefers-reduced-motion: no-preference) {
@@ -8,39 +11,9 @@
   }
 }*/
 
-.App-header {
-  background-color: #000000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: top;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-spoons {
-  height: 55vmin;
-  width: 100%;
-  pointer-events: none;
-  position: relative;
-    top: 0
-    left 0;
-}
-
-.App-logo {
-  display: flex;
-  align-items: left;
-  position: fixed;
-    top: 120px;
-    left: 70px;
-  height: 19vmin;
-  width: 37%;
-}
-
-.App-link {
+/*.App-link {
   color: #61dafb;
-}
+}*/
 
 /*@keyframes App-logo-spin {
   from {

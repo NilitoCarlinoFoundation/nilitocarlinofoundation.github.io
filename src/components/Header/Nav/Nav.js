@@ -1,29 +1,36 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
+import './Nav.css';
 
 export default function Nav() {
 	return (
-		  <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/story">Nilito's Story</Link>
-            </li>
-            <li>
-              <Link to="/foundation">Foundation</Link>
-            </li>
-              <li>
-              <Link to="/sponsors">Contributors/Sponsors</Link>
-            </li>
-              <li>
-              <Link to="/events">Events</Link>
-            </li>
-              <li>
-              <Link to="/contact">Contact Us</Link>
-            </li>
-          </ul>
-        </nav>
-    );
+		  <nav className="Nav">
+        <ul>
+          <li>
+            <NavLink to="/" exact>Home</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/story">Nilito's Story</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/foundation">Foundation</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/sponsors">Contributors/Sponsors</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/events">Events</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/contact">Contact Us</NavLink>
+          </li>
+        </ul>
+      </nav>
+  );
 }
