@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Nav from './Nav/Nav';
+import Donate from './Donate/Donate';
 import './Header.css';
 
 export default function Header() {
@@ -8,6 +9,7 @@ export default function Header() {
 		<header className="Header">
     	<img src="Nick_logo.png" className="Header-logo" alt="Nick_logo" />
       <Nav />
+      <Donate />
 
       {/* 		<a
          	 	className="App-link"

@@ -5,6 +5,41 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+button {
+  background-color: #4688fe;
+  font-size: 0.8em;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2.5em;
+  border-bottom: 2px solid #4688fe;
+}
+
+.content {
+  background-color: #232324;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 40px;
+}
+
+.content-text {
+  text-align: left;
+  font-size: 1.65em;
+}
+
+.content-image {
+  margin: 40px;
+}
+
 /*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

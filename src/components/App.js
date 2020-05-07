@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 import '../styles/App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ import Home from './Pages/Home';
 import Story from './Pages/Story';
 import Foundation from './Pages/Foundation';
 import Sponsors from './Pages/Sponsors';
-import Events from './Pages/Events';
+import Events from './Pages/Events/Events';
 import Contact from './Pages/Contact';
 import Footer from './Footer/Footer';
 
