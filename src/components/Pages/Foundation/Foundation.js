@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './Story.css'; 
+import './Foundation.css';
 
-export default function Story() {
+export default function Foundation() {
 	return ( 
-		<div className="Story">
+		<div className="Foundation">
 			<div className="content">
-				<h1>The Nilito Carlino Foundation</h1>
+				<h1>Nilito Carlino Foundation</h1>
 				<div className="content-text">
 					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
 					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
@@ -16,7 +16,7 @@ export default function Story() {
 			</div>
 
 			<div className="content-image">
-				<img src="/Nick_Chef_BW.png" alt="Nick Chef" />
+				<img src="/Nick_Rocco_II.png" alt="Nick and Rocco" />
 			</div>
 
 		</div>

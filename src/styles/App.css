@@ -1,11 +1,12 @@
 .App {
   text-align: center;
-  background-color: #141414; 
-  color: #fff; 
+  background-color: #141414;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
 
-button {
+button,
+a.button-link {
   background-color: #4688fe;
   font-size: 0.8em;
   color: #fff;
@@ -14,6 +15,11 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+a.button-link:visited {
+  text-decoration: none;
 }
 
 h1 {
@@ -38,6 +44,15 @@ h1 {
 
 .content-image {
   margin: 40px;
+}
+
+/*.Sibling connectors. Selects cases where these things are siblings, and only applies styling to the second
+sib to the right of the + sign. This was used to "collapse margins" between text and picture divs when using display: flex*/
+
+.content + .content,
+.content + .content-image,
+.content-image + .content {
+  margin-left: 0;
 }
 
 /*@media (prefers-reduced-motion: no-preference) {

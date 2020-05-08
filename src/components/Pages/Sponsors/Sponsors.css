@@ -1,0 +1,21 @@
+.Sponsors {
+	display: flex;
+}
+
+.contributors-list,
+.Sponsors-list {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.star-gold {
+  color: #F7EB56;
+}
+
+.star-silver {
+  color: #ABABAB;
+}
+
+.star-bronze {
+  color: #C28534;
+}

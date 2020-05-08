@@ -10,12 +10,12 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import Header from './Header/Header';
-import Home from './Pages/Home';
-import Story from './Pages/Story';
-import Foundation from './Pages/Foundation';
-import Sponsors from './Pages/Sponsors';
+import Home from './Pages/Home/Home';
+import Story from './Pages/Story/Story';
+import Foundation from './Pages/Foundation/Foundation';
+import Sponsors from './Pages/Sponsors/Sponsors';
 import Events from './Pages/Events/Events';
-import Contact from './Pages/Contact';
+import Contact from './Pages/Contact/Contact';
 import Footer from './Footer/Footer';
 
 library.add(fab, faCheckSquare, faCoffee)
