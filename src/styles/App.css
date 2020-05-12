@@ -26,6 +26,7 @@ h1 {
   font-weight: normal;
   font-size: 2.5em;
   border-bottom: 2px solid #4688fe;
+  margin-top: 0;
 }
 
 .content {
@@ -34,7 +35,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px 40px;
+  padding: 40px;
 }
 
 .content-text {
