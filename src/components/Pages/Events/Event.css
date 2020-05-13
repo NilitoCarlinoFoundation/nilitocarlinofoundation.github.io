@@ -1,6 +1,7 @@
 .Event {
   display: flex;
   margin: 20px;
+  margin-inline-start: 0;
 }
 
 .Event-date {
@@ -17,4 +18,36 @@
 
 .Event-year {
   font-size: 2.5em;
+}
+
+.Event-details {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Event-name {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+.Event-address {
+  font-size: 1.4em;
+}
+
+.Event-time {
+  font-size: 1.4em;
+}
+
+.Event-button-name {
+  background-color: #4688fe;
+  font-size: 1.25em;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
 }

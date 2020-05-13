@@ -3,16 +3,16 @@ import React from 'react';
 import './Foundation.css';
 
 export default function Foundation() {
-	return ( 
+	return (
 		<div className="Foundation">
 			<div className="content">
 				<h1>Nilito Carlino Foundation</h1>
 				<div className="content-text">
-					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
-					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
-					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
-					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
-				</div>
+					Here are some words about the foundation. Here are some words about the foundation.
+          Here are some words about the foundation. Here are some words about the foundation.
+          Here are some words about the foundation. Here are some words about the foundation.
+          Here are some words about the foundation. Here are some words about the foundation.
+          </div>
 			</div>
 
 			<div className="content-image">

@@ -3,16 +3,17 @@ import React from 'react';
 import './Home.css';
 
 export default function Home() {
-	return ( 
+	return (
 		<div className="Home">
 			<div className="content">
 				<h1>The Nilito Carlino Foundation</h1>
 				<div className="content-text">
-					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
-					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
-					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
-					Here are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely wordsHere are some lovely words
-				</div>
+					Here are some words for the Home Page. Here are some words for the Home Page.
+          Here are some words for the Home Page. Here are some words for the Home Page.
+          Here are some words for the Home Page. Here are some words for the Home Page.
+          Here are some words for the Home Page. Here are some words for the Home Page.
+          Here are some words for the Home Page. Here are some words for the Home Page.
+        </div>
 			</div>
 
 			<div className="content-image">
