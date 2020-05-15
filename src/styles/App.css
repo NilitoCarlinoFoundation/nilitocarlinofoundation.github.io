@@ -35,12 +35,13 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 25px;
+  padding: 40px;
 }
 
 .content-text {
   text-align: left;
-  font-size: 1.65em;
+  font-size: 1.4em;
+  font-weight: 100;
 }
 
 .content-image {

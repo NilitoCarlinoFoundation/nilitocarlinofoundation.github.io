@@ -38,6 +38,7 @@
 
 .Event-time {
   font-size: 1.4em;
+  text-transform: lowercase;
 }
 
 .Event-button-name {
@@ -46,6 +47,7 @@
   color: #fff;
   border-radius: 20px;
   padding: 2px 40px;
+  margin-top: 10px;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
