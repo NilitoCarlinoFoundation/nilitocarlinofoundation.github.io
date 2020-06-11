@@ -42,14 +42,6 @@
 }
 
 .Event-button-name {
-  background-color: #4688fe;
   font-size: 1.25em;
-  color: #fff;
-  border-radius: 20px;
-  padding: 2px 40px;
-  margin-top: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: none;
-}
+  margin: 10px 0;
+ }

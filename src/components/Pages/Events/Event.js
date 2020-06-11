@@ -15,7 +15,17 @@ function Event({ name, date, address, buttonName, url }) {
         <div className="Event-name">{name}</div>
         <div className="Event-address">{address}</div>
         <div className="Event-time">{format(date, 'h:mma')}</div>
-        <div className="Event-button-name">{buttonName}</div>
+        <div className="Event-button-name">
+          <a
+            href="https://www.facebook.com/pages/category/Charity-Organization/Nilito-Carlino-Foundation-102451708055048/"
+            className="button-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {buttonName}
+          </a>
+        </div>
+
       </div>
     </div>
   );

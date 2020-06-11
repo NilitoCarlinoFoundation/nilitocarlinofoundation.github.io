@@ -5,7 +5,7 @@ import './Footer.css';
 export default function Footer() {
 	return (
 		<div className="Footer">
-			<div>The Nilito Carlino Foundation | 123 Address Street, Attleboro, MA 12345</div>
+			<div>The Nilito Carlino Foundation | 702 Oakhill Ave, Attleboro, MA 02703</div>
 			<div>Copyright &#169; 2020</div>
 		</div>
 	);

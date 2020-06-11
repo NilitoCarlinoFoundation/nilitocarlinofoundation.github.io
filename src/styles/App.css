@@ -5,6 +5,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/*to use this button style, you must put a button html tag in your .js file*/
+
 button,
 a.button-link {
   background-color: #4688fe;

@@ -8,11 +8,12 @@ export default function Home() {
 			<div className="content">
 				<h1>The Nilito Carlino Foundation</h1>
 				<div className="content-text">
-					Here are some words for the Home Page. Here are some words for the Home Page.
-          Here are some words for the Home Page. Here are some words for the Home Page.
-          Here are some words for the Home Page. Here are some words for the Home Page.
-          Here are some words for the Home Page. Here are some words for the Home Page.
-          Here are some words for the Home Page. Here are some words for the Home Page.
+					The Nilito “Nick” Carlino Foundation is a non-profit, volunteer-led organization
+          created in the wake of Nick's untimely death. <br></br>
+          <br></br>
+
+          Our goal is to raise funds for an annual academic Culinary Arts Scholarship
+          to be awarded to a graduate of Attleboro High School.
         </div>
 			</div>
 

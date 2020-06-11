@@ -5,6 +5,10 @@ import Calendar from './Calendar.js';
 import Event from './Event.js';
 import './Events.css';
 
+/*Whenever you want to add or remove an event, do so in this list. Be sure to put date and time
+stamps for eastern time. Time = hrs mins secs. 08:00 is 8am and minus 04:00 makes it align to
+easter standard time.*/
+
 const eventList = [
   {
     id: 1,
@@ -78,7 +82,9 @@ export default function Events() {
           )}
         </div>
 
-        <div className="content">
+{/* Uncomment the section below to populate the "Past Events" section of the Events page */}
+
+ {/*       <div className="content">
           <h1>Past Events</h1>
 
           {pastEvents.map(event =>
@@ -91,7 +97,7 @@ export default function Events() {
               url={event.url}
             />
           )}
-        </div>
+        </div> */}
       </div>
     </div>
   );

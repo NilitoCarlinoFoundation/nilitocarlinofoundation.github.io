@@ -12,15 +12,17 @@ export default function Sponsors() {
 				<div className="content-text">
 					Thank you to our generous contributors for supporting The Nilito Carlino Foundation:
 						<ul className="contributors-list">
-							<li>Carl's Burgers</li>
-							<li>Raymond Running Shoes</li>
-							<li>Stop & Shop</li>
-							<li>Once Upon a Time Bookstore</li>
+							<li>Rocco R Carlino III</li>
+							<li>Joanne Brousseau</li>
+							<li>Team Challenge</li>
+
+	{/*}						<li>Once Upon a Time Bookstore</li>
 							<li>Culinary School</li>
 							<li>Roger A. Benson</li>
 							<li>Amy & Patrick Miller</li>
 							<li>K. Landry</li>
-							<li>Pop's Candy Store</li>
+							<li>Pop's Candy Store</li> */}
+
 						</ul>
 				</div>
 			</div>
@@ -30,7 +32,7 @@ export default function Sponsors() {
 				<div className="content-text">
 					Thank you to our wonderful sponsors for your never-ending support:
 						<ul className="Sponsors-list">
-							<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Team Challenge</li>
+							<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Dyer Funeral Home</li>
 							<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Asics</li>
 							<li><FontAwesomeIcon className="star-gold" icon={faStar} /> The North Face</li>
 							<li><FontAwesomeIcon className="star-silver" icon={faStar} /> Cambridge Culinary</li>
