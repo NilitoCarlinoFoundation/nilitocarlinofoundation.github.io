@@ -1,8 +1,24 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .App {
   text-align: center;
   background-color: #141414;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1 0 auto;
 }
 
 /*to use this button style, you must put a button html tag in your .js file*/
@@ -22,6 +38,11 @@ a.button-link {
 
 a.button-link:visited {
   text-decoration: none;
+}
+
+a.text-link {
+  color: #4688fe;
+  font-weight: bold;
 }
 
 h1 {

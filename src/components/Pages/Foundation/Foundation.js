@@ -15,7 +15,7 @@ export default function Foundation() {
 
           The Nilito Carlino Foundation was established to raise funds for an annual academic scholarship for students pursuing
           a career in Culinary Arts and Business Management. Nick loved to cook and was enthusiastic about his culinary studies,
-          having simultaneously attended Culinary Arts and Business Management program at Johnson and Wales University
+          having simultaneously attended the Culinary Arts and Business Management program at Johnson and Wales University
           in Providence, RI while a student at Attleboro High School. <br></br>
           <br></br>
 

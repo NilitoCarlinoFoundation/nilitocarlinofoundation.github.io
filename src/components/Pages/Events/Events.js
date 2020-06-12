@@ -10,30 +10,30 @@ stamps for eastern time. Time = hrs mins secs. 08:00 is 8am and minus 04:00 make
 easter standard time.*/
 
 const eventList = [
-  {
-    id: 1,
-    date: new Date('2020-07-01T08:00:00-04:00'),
-    name: 'Run Fast Road Race',
-    address: 'Marathon Park, 789 Park St, Attleboro, MA 12345',
-    buttonName: 'Registration Closed',
-    url: null
-  },
-  {
-    id: 2,
-    date: new Date('2020-09-28T09:00:00-04:00'),
-    name: 'Run Slow Road Race',
-    address: 'Half Marathon Park, 987 La La Lane, Wala Wala, WA 12345',
-    buttonName: 'Register',
-    url: null
-  },
-  {
-    id: 3,
-    date: new Date('2019-06-01T09:00:00-04:00'),
-    name: 'What the Hill Road Race',
-    address: 'Tall Hill Park, 111 Hill St, Attleboro, MA 12345',
-    buttonName: 'Results',
-    url: null
-  }
+  // {
+  //   id: 1,
+  //   date: new Date('2020-07-01T08:00:00-04:00'),
+  //   name: 'Run Fast Road Race',
+  //   address: 'Marathon Park, 789 Park St, Attleboro, MA 12345',
+  //   buttonName: 'Registration Closed',
+  //   url: null
+  // },
+  // {
+  //   id: 2,
+  //   date: new Date('2020-09-28T09:00:00-04:00'),
+  //   name: 'Run Slow Road Race',
+  //   address: 'Half Marathon Park, 987 La La Lane, Wala Wala, WA 12345',
+  //   buttonName: 'Register',
+  //   url: null
+  // },
+  // {
+  //   id: 3,
+  //   date: new Date('2019-06-01T09:00:00-04:00'),
+  //   name: 'What the Hill Road Race',
+  //   address: 'Tall Hill Park, 111 Hill St, Attleboro, MA 12345',
+  //   buttonName: 'Results',
+  //   url: null
+  // }
 ];
 
 const useEvents = (events) =>
@@ -69,8 +69,9 @@ export default function Events() {
       <div className="Events-content">
         <div className="content Events-upcoming">
           <h1>Upcoming Events</h1>
+            <div><h2>Coming Soon!!</h2></div>
 
-          {upcomingEvents.map(event =>
+ {/*         {upcomingEvents.map(event =>
             <Event
               key={event.id}
               date={event.date}
@@ -80,6 +81,7 @@ export default function Events() {
               url={event.url}
             />
           )}
+*/}
         </div>
 
 {/* Uncomment the section below to populate the "Past Events" section of the Events page */}

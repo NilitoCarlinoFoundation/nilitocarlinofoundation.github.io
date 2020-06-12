@@ -24,30 +24,32 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
-          {/* A <Switch> looks through its children <Route>s and
-           renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/events">
-            <Events />
-          </Route>
-          <Route path="/sponsors">
-            <Sponsors />
-          </Route>
-          <Route path="/foundation">
-            <Foundation />
-          </Route>
-          <Route path="/story">
-            <Story />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+        <div className="wrapper">
+          <Header />
+            {/* A <Switch> looks through its children <Route>s and
+             renders the first one that matches the current URL. */}
+          <Switch>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/events">
+              <Events />
+            </Route>
+            <Route path="/sponsors">
+              <Sponsors />
+            </Route>
+            <Route path="/foundation">
+              <Foundation />
+            </Route>
+            <Route path="/story">
+              <Story />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
 
-        </Switch>
+          </Switch>
+        </div>
         <Footer />
       </div>
     </Router>
