@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from '../logo.svg';
 import '../styles/App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 /* Here's where I can grab FB and star icons*/
 import { library } from '@fortawesome/fontawesome-svg-core';
