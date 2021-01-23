@@ -14,6 +14,7 @@ import Story from './Pages/Story/Story';
 import Foundation from './Pages/Foundation/Foundation';
 import Sponsors from './Pages/Sponsors/Sponsors';
 import Events from './Pages/Events/Events';
+import Photos from './Pages/Photos/Photos';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Footer/Footer';
 
@@ -31,6 +32,9 @@ function App() {
           <Switch>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="/photos">
+              <Photos />
             </Route>
             <Route path="/events">
               <Events />

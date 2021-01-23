@@ -71,6 +71,10 @@ h1 {
   margin: 40px;
 }
 
+.photocontent {
+  background-color: #232324;
+}
+
 /*.Sibling connectors. Selects cases where these things are siblings, and only applies styling to the second
 sib to the right of the + sign. This was used to "collapse margins" between text and picture divs when using display: flex*/
 

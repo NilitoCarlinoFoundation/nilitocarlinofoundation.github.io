@@ -20,11 +20,15 @@ export default function Nav() {
           </li>
 
           <li>
-            <NavLink to="/sponsors">Contributors/Sponsors</NavLink>
+            <NavLink to="/sponsors">Contributors</NavLink>
           </li>
 
           <li>
             <NavLink to="/events">Events</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/photos">Photos</NavLink>
           </li>
 
           <li>

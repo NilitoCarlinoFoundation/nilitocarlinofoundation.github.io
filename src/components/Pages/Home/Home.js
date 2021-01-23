@@ -12,8 +12,9 @@ export default function Home() {
           created in the wake of Nick's untimely death. <br></br>
           <br></br>
 
-          Our goal is to raise funds for an annual academic Culinary Arts Scholarship
-          to be awarded to a graduate of Attleboro High School.
+          Our mission is to raise funds for an annual academic Culinary Arts Scholarship
+          to be awarded to a graduate of Attleboro High School as well as to provide financial support
+          to the Attleboro High School Track & Field program and Chapter of Best Buddies.
         </div>
 			</div>
 
