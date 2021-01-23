@@ -1,8 +1,9 @@
-import React, { useMemo } from 'react';
-import { isAfter, isToday } from 'date-fns';
+// import React, { useMemo } from 'react';
+import React from 'react';
+// import { isAfter, isToday } from 'date-fns';
 
 import Calendar from './Calendar.js';
-import Event from './Event.js';
+// import Event from './Event.js';
 import './Events.css';
 
 /*Whenever you want to add or remove an event, do so in this list. Be sure to put date and time
@@ -36,28 +37,28 @@ const eventList = [
   // }
 ];
 
-const useEvents = (events) =>
-  useMemo(
-    () => {
-      const today = new Date();
-      const upcomingEvents = [];
-      const pastEvents = [];
+// const useEvents = (events) =>
+//   useMemo(
+//     () => {
+//       const today = new Date();
+//       const upcomingEvents = [];
+//       const pastEvents = [];
 
-      events.forEach(event => {
-        if (isAfter(event.date, today) || isToday(event.date)) {
-          upcomingEvents.push(event);
-        } else {
-          pastEvents.push(event);
-        }
-      });
+//       events.forEach(event => {
+//         if (isAfter(event.date, today) || isToday(event.date)) {
+//           upcomingEvents.push(event);
+//         } else {
+//           pastEvents.push(event);
+//         }
+//       });
 
-      return { upcomingEvents, pastEvents };
-    },
-    [events]
-  );
+//       return { upcomingEvents, pastEvents };
+//     },
+//     [events]
+//   );
 
 export default function Events() {
-  const { upcomingEvents, pastEvents } = useEvents(eventList);
+  // const { upcomingEvents, pastEvents } = useEvents(eventList);
 
   return (
     <div className="Events">
