@@ -11,31 +11,31 @@ export default function Photos() {
           <div className="content">
               <Carousel infiniteLoop useKeyboardArrows autoPlay dynamicHeight>
                     <div>
-                      <img src="/Carousel1.JPG" alt="Nick Flag"/>
+                      <img src="/carousel/01_nick_flag.jpg" alt="Nick Flag"/>
                     </div>
                     <div>
-                      <img src="/Carousel2.JPG" alt="Nick Throwing"/>
+                      <img src="/carousel/02_nick_throw.jpg" alt="Nick Throwing"/>
                     </div>
                     <div>
-                      <img src="/Carousel3.JPG" alt="Nick TC"/>
+                      <img src="/carousel/03_nick_tc.jpg" alt="Nick TC"/>
                     </div>
                     <div>
-                      <img src="/Carousel4.JPG" alt="Nick Baby"/>
+                      <img src="/carousel/04_nick_baby.jpg" alt="Nick Baby"/>
                     </div>
                     <div>
-                      <img src="/Carousel5.JPG" alt="Nick Headhshot"/>
+                      <img src="/carousel/05_nick_headshot.jpg" alt="Nick Headshot"/>
                     </div>
                     <div>
-                      <img src="/Carousel6.JPG" alt="Nick Black Suit 1"/>
+                      <img src="/carousel/06_nick_blacksuit.jpg" alt="Nick Black Suit 1"/>
                     </div>
                     <div>
-                      <img src="/Carousel7.JPG" alt="Nick Blue Suit"/>
+                      <img src="/carousel/07_nick_bluesuit.jpg" alt="Nick Blue Suit"/>
                     </div>
                     <div>
-                      <img src="/Carousel8.JPG" alt="Nick on Boat"/>
+                      <img src="/carousel/08_nick_boat.jpg" alt="Nick on Boat"/>
                     </div>
                     <div>
-                      <img src="/Carousel9.JPG" alt="Nick Black Suit 2" />
+                      <img src="/carousel/09_nick_blacksuitii.jpg" alt="Nick Black Suit 2" />
                     </div>
               </Carousel>
         </div>
