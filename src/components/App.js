@@ -15,6 +15,7 @@ import Foundation from './Pages/Foundation/Foundation';
 import Sponsors from './Pages/Sponsors/Sponsors';
 import Events from './Pages/Events/Events';
 import Photos from './Pages/Photos/Photos';
+// import CarouselComponent from './Pages/Photos/Carousel.Component';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Footer/Footer';
 

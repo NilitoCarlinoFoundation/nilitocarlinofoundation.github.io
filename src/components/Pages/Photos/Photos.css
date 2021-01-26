@@ -1,3 +1,11 @@
 .Photos {
     display: flex;
 }
+
+.carousel .slider-wrapper {
+    width: 40%;
+}
+
+.carousel-status {
+    display: none;
+}

@@ -1,4 +1,5 @@
 // import React, { useMemo } from 'react';
+// when ready to use actual events, uncomment line 1 and delete line 3. Also uncomment the items below.
 import React from 'react';
 // import { isAfter, isToday } from 'date-fns';
 
