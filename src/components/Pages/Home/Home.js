@@ -15,11 +15,11 @@ export default function Home() {
           Our mission is to raise funds for an annual academic Culinary Arts Scholarship
           to be awarded to a graduate of Attleboro High School as well as to provide financial support
           to the{' '}
-          <a className="text-link" href="http://attleborotrack.com/" target="_blank">
+          <a className="text-link" href="http://attleborotrack.com/" target="_blank" rel="noopener">
             Attleboro High School Track & Field program
           </a>
           {' '}and{' '}
-          <a className="text-link" href="https://www.facebook.com/attleborobestbuddies/" target="_blank">
+          <a className="text-link" href="https://www.facebook.com/attleborobestbuddies/" target="_blank" rel="noopener">
             Chapter of Best Buddies
           </a>.
         </div>
