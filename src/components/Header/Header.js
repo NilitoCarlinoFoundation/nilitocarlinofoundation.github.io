@@ -9,7 +9,7 @@ export default function Header() {
 		<header className="Header">
     	<img src="Nick_logo.png" className="Header-logo" alt="Nick_logo" />
       <Nav />
-      <Donate />
+      <Donate showSocialMedia />
 
       {/* 		<a
          	 	className="App-link"
