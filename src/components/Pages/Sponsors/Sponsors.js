@@ -32,7 +32,7 @@ export default function Sponsors() {
 				<div className="content-text">
 					Thank you to our wonderful sponsors for your never-ending support:
 						<ul className="Sponsors-list">
-							<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Dyer Funeral Home</li>
+							{/*<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Dyer Funeral Home</li>*/}
 	{/*						<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Asics</li>
 							<li><FontAwesomeIcon className="star-gold" icon={faStar} /> The North Face</li>
 							<li><FontAwesomeIcon className="star-silver" icon={faStar} /> Cambridge Culinary</li>
