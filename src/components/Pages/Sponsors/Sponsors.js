@@ -32,7 +32,8 @@ export default function Sponsors() {
 				<h1>Sponsors</h1>
 				<div className="content-text">
 					Thank you to our wonderful sponsors for your never-ending support:
-						<ul className="Sponsors-list">
+						{/*Wrap ul below in scrolling container*/}
+            <ul className="Sponsors-list">
 							<li><FontAwesomeIcon className="diamond" icon={faGem} /> </li>
               <li><FontAwesomeIcon className="star-platinum" icon={faStar} /> </li>
               <li><FontAwesomeIcon className="star-gold" icon={faStar} /> </li>

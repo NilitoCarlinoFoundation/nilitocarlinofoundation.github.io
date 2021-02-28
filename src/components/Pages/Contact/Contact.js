@@ -10,7 +10,7 @@ export default function Contact() {
           We are excited to hear from you and welcome your questions and feedback about the foundation and our
           website. Feel free reach out to us at:{" "}
           {/*<br />*/}
-          <a className="text-link" href="mailto:rrcarlino3@gmail.com">The Nilito Carlino Foundation</a>
+          <a className="text-link" href="mailto:nilitocarlinofoundation@gmail.com">The Nilito Carlino Foundation</a>
 
           <p>Please include your name and preferred contact information, and we'll be happy to get in touch.</p>
         </div>
