@@ -7,7 +7,7 @@ export default function Donate({ showSocialMedia = false }) {
   return (
     <div className="Donate">
       <a
-        href="https://www.paypal.com/donate?token=CO8g67ufZihZ5AAjVuTIQEM8MDLtaDmu81LZ1vMpoFWtToxVGuTPuEdvF_zbB-k4BFGUeYIiV_vWtOts"
+        href="https://www.paypal.com/donate?token=CH0G-3m4p_T_JC9y3MxeJnbykCU4K9se5JDrJyiTgpFTWH8BzwqGmTGvh9tJC2SixTN5Wytpqh3Q1J1O"
         className="button-link"
         target="_blank"
         rel="noopener noreferrer"
