@@ -2,11 +2,7 @@
 	display: flex;
 }
 
-/*.Home .content {
-  justify-content: space-between;
-}*/
-
-.Home a.button-link {
+.Home .button-link {
   background-color: #ffd43b;
   color: black;
   font-size: 1.4em;
