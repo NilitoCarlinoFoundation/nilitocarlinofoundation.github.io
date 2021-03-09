@@ -24,6 +24,7 @@ body {
 /*to use this button style, you must put a button html tag in your .js file*/
 
 button,
+input.button-link,
 a.button-link {
   background-color: #4688fe;
   font-size: 0.8em;
@@ -34,6 +35,7 @@ a.button-link {
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+  border: 0;
 }
 
 a.button-link:visited {

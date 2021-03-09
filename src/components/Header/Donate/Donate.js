@@ -6,14 +6,12 @@ import './Donate.css';
 export default function Donate({ showSocialMedia = false }) {
   return (
     <div className="Donate">
-      <a
-        href="https://www.paypal.com/donate?token=CH0G-3m4p_T_JC9y3MxeJnbykCU4K9se5JDrJyiTgpFTWH8BzwqGmTGvh9tJC2SixTN5Wytpqh3Q1J1O"
-        className="button-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Donate
-      </a>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="business" value="" />
+        <input type="hidden" name="cmd" value="_donations" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="submit" value="Donate" className="button-link" />
+      </form>
 
       { showSocialMedia &&
         <>

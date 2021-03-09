@@ -4,6 +4,10 @@
 	align-self: flex-end;
 }
 
+.Donate form {
+  display: inline-block;
+}
+
 .Donate-icon {
 	color: #4688fe;
 	margin-left: 20px;
