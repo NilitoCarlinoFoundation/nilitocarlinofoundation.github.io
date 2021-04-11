@@ -2,8 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import {faGem} from '@fortawesome/free-solid-svg-icons'
-
 import './Sponsors.css';
+import Sponsor from './Sponsor.js';
 
 export default function Sponsors() {
 	return (
@@ -33,12 +33,29 @@ export default function Sponsors() {
 				<div className="content-text">
 					Thank you to our wonderful sponsors for your never-ending support:
 						{/*Wrap ul below in scrolling container*/}
+
             <ul className="Sponsors-list">
-							<li><FontAwesomeIcon className="diamond" icon={faGem} /> </li>
-              <li><FontAwesomeIcon className="star-platinum" icon={faStar} /> </li>
-              <li><FontAwesomeIcon className="star-gold" icon={faStar} /> </li>
-              <li><FontAwesomeIcon className="star-silver" icon={faStar} /> </li>
-              <li><FontAwesomeIcon className="star-bronze" icon={faStar} /> </li>
+							<li>
+                <h4><FontAwesomeIcon className="diamond" icon={faGem} /> Diamond </h4>
+              </li>
+              <li>
+                <h4><FontAwesomeIcon className="star-platinum" icon={faStar} /> Platinum </h4>
+              </li>
+              <li>
+                <h4><FontAwesomeIcon className="star-gold" icon={faStar} /> Gold </h4>
+                  <li>John Fitzmaurice  |  Mark and Elinor Klempner</li>
+              </li>
+              <li>
+                <h4><FontAwesomeIcon className="star-silver" icon={faStar} /> Silver </h4>
+                  <li>Jeffrey and Suzette Brousseau  |  Lorraine Legg  |  Lipsett and Sons, Inc.  |  Jonathan and
+                  Amanda Metzger  |  Neurology Partners, P.C.
+                  </li>
+              </li>
+              <li>
+                <h4><FontAwesomeIcon className="star-bronze" icon={faStar} /> Bronze </h4>
+                  <li> Bluefin Technology Partners, LLC  |  KC's Classic Burger Bar  |  Joseph and Kim Piro  |
+                  Willis-McKinnon Insurance Agency, Inc. </li>
+              </li>
 
 							{/*<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Asics</li>
 							<li><FontAwesomeIcon className="star-gold" icon={faStar} /> The North Face</li>
