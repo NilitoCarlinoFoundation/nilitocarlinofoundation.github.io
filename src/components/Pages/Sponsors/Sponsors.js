@@ -43,18 +43,18 @@ export default function Sponsors() {
               </li>
               <li>
                 <h4><FontAwesomeIcon className="star-gold" icon={faStar} /> Gold </h4>
-                  <li>John Fitzmaurice  |  Mark and Elinor Klempner</li>
+                  <p>John Fitzmaurice  |  Mark and Elinor Klempner</p>
               </li>
               <li>
                 <h4><FontAwesomeIcon className="star-silver" icon={faStar} /> Silver </h4>
-                  <li>Jeffrey and Suzette Brousseau  |  Lorraine Legg  |  Lipsett and Sons, Inc.  |  Jonathan and
+                  <p>Jeffrey and Suzette Brousseau  |  Lorraine Legg  |  Lipsett and Sons, Inc.  |  Jonathan and
                   Amanda Metzger  |  Neurology Partners, P.C.
-                  </li>
+                  </p>
               </li>
               <li>
                 <h4><FontAwesomeIcon className="star-bronze" icon={faStar} /> Bronze </h4>
-                  <li> Bluefin Technology Partners, LLC  |  KC's Classic Burger Bar  |  Joseph and Kim Piro  |
-                  Willis-McKinnon Insurance Agency, Inc. </li>
+                  <p> Bluefin Technology Partners, LLC  |  KC's Classic Burger Bar  |  Joseph and Kim Piro  |
+                  Willis-McKinnon Insurance Agency, Inc. </p>
               </li>
 
 							{/*<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Asics</li>
