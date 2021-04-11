@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import {faGem} from '@fortawesome/free-solid-svg-icons'
 import './Sponsors.css';
-import Sponsor from './Sponsor.js';
+//import Sponsor from './Sponsor.js';
 
 export default function Sponsors() {
 	return (
