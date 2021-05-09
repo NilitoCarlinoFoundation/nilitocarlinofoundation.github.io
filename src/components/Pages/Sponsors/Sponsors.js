@@ -47,22 +47,16 @@ export default function Sponsors() {
               </li>
               <li>
                 <h4><FontAwesomeIcon className="star-silver" icon={faStar} /> Silver </h4>
-                  <p>Jeffrey and Suzette Brousseau  |  Lorraine Legg  |  Lipsett and Sons, Inc.  |  Jonathan and
-                  Amanda Metzger  |  Neurology Partners, P.C.
+                  <p>Jeffrey and Suzette Brousseau  |  Lorraine Legg  |  Lipsett and Sons, Inc.  |   Mike, Bonnie & Harry Marcel
+                  | Jonathan and Amanda Metzger  |  Neurology Partners, P.C. |  Pawtucket Credit Union | Janet Salomon
                   </p>
               </li>
               <li>
                 <h4><FontAwesomeIcon className="star-bronze" icon={faStar} /> Bronze </h4>
-                  <p> Bluefin Technology Partners, LLC  |  KC's Classic Burger Bar  |  Joseph and Kim Piro  |
+                  <p> Bluefin Technology Partners, LLC  |  Downeast Doors - Ken Galanif | Germain Plumbing & Heating, Inc.
+                  | KC's Classic Burger Bar | Frank & Marty King |  Joseph and Kim Piro  | Bob Siris |
                   Willis-McKinnon Insurance Agency, Inc. </p>
               </li>
-
-							{/*<li><FontAwesomeIcon className="star-gold" icon={faStar} /> Asics</li>
-							<li><FontAwesomeIcon className="star-gold" icon={faStar} /> The North Face</li>
-							<li><FontAwesomeIcon className="star-silver" icon={faStar} /> Cambridge Culinary</li>
-							<li><FontAwesomeIcon className="star-bronze" icon={faStar} /> Boston Strong</li>
-							<li><FontAwesomeIcon className="star-bronze" icon={faStar} /> Macfarlane Energy</li>
-							<li><FontAwesomeIcon className="star-bronze" icon={faStar} /> Attleboro Bank</li>*/}
 						</ul>
 				</div>
 			</div>
