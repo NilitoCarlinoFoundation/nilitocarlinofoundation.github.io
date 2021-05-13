@@ -59,7 +59,8 @@ const eventList = [
    );
 
 export default function Events() {
-   const { upcomingEvents, pastEvents } = useEvents(eventList);
+   {/*add pastEvents to line 63 when ready. Format = { upcomingEvents, pastEvents } */}
+   const { upcomingEvents } = useEvents(eventList);
 
   return (
     <div className="Events">
