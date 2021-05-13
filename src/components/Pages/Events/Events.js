@@ -1,10 +1,10 @@
-// import React, { useMemo } from 'react';
+import React, { useMemo } from 'react';
 // when ready to use actual events, uncomment line 1 and delete line 3. Also uncomment the items below.
-import React from 'react';
-// import { isAfter, isToday } from 'date-fns';
+//import React from 'react';
+import { isAfter, isToday } from 'date-fns';
 
 import Calendar from './Calendar.js';
-// import Event from './Event.js';
+import Event from './Event.js';
 import './Events.css';
 
 /*Whenever you want to add or remove an event, do so in this list. Be sure to put date and time
@@ -12,14 +12,14 @@ stamps for eastern time. Time = hrs mins secs. 08:00 is 8am and minus 04:00 make
 easter standard time.*/
 
 const eventList = [
-  // {
-  //   id: 1,
-  //   date: new Date('2020-07-01T08:00:00-04:00'),
-  //   name: 'Run Fast Road Race',
-  //   address: 'Marathon Park, 789 Park St, Attleboro, MA 12345',
-  //   buttonName: 'Registration Closed',
-  //   url: null
-  // },
+   {
+     id: 1,
+     date: new Date('2021-10-02T10:00:00-04:00'),
+     name: '1st Annual Nilito Carlino Foundation 5K Run & Fitness Walk',
+     address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
+     buttonName: 'Registration Closed',
+     url: null
+
   // {
   //   id: 2,
   //   date: new Date('2020-09-28T09:00:00-04:00'),
@@ -35,31 +35,31 @@ const eventList = [
   //   address: 'Tall Hill Park, 111 Hill St, Attleboro, MA 12345',
   //   buttonName: 'Results',
   //   url: null
-  // }
+   }
 ];
 
-// const useEvents = (events) =>
-//   useMemo(
-//     () => {
-//       const today = new Date();
-//       const upcomingEvents = [];
-//       const pastEvents = [];
+ const useEvents = (events) =>
+   useMemo(
+     () => {
+       const today = new Date();
+       const upcomingEvents = [];
+       const pastEvents = [];
 
-//       events.forEach(event => {
-//         if (isAfter(event.date, today) || isToday(event.date)) {
-//           upcomingEvents.push(event);
-//         } else {
-//           pastEvents.push(event);
-//         }
-//       });
+       events.forEach(event => {
+         if (isAfter(event.date, today) || isToday(event.date)) {
+           upcomingEvents.push(event);
+         } else {
+           pastEvents.push(event);
+         }
+       });
 
-//       return { upcomingEvents, pastEvents };
-//     },
-//     [events]
-//   );
+       return { upcomingEvents, pastEvents };
+     },
+     [events]
+   );
 
 export default function Events() {
-  // const { upcomingEvents, pastEvents } = useEvents(eventList);
+   const { upcomingEvents, pastEvents } = useEvents(eventList);
 
   return (
     <div className="Events">
@@ -71,9 +71,9 @@ export default function Events() {
       <div className="Events-content">
         <div className="content Events-upcoming">
           <h1>Upcoming Events</h1>
-            <div><h2>Coming Soon!!</h2></div>
+            {/*<div><h2>Coming Soon!!</h2></div>*/}
 
- {/*         {upcomingEvents.map(event =>
+          {upcomingEvents.map(event =>
             <Event
               key={event.id}
               date={event.date}
@@ -83,7 +83,7 @@ export default function Events() {
               url={event.url}
             />
           )}
-*/}
+
         </div>
 
 {/* Uncomment the section below to populate the "Past Events" section of the Events page */}
