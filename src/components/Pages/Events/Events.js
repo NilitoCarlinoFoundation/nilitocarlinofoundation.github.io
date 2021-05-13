@@ -60,7 +60,7 @@ const eventList = [
 
 export default function Events() {
    {/*add pastEvents to line 63 when ready. Format = { upcomingEvents, pastEvents } */}
-   const { upcomingEvents } = useEvents(eventList);
+   const { upcomingEvents, pastEvents } = useEvents(eventList);
 
   return (
     <div className="Events">
@@ -87,9 +87,9 @@ export default function Events() {
 
         </div>
 
-{/* Uncomment the section below to populate the "Past Events" section of the Events page */}
+{/* Uncomment the section below, lines 92-105, to populate the "Past Events" section of the Events page */}
 
- {/*       <div className="content">
+        <div className="content">
           <h1>Past Events</h1>
 
           {pastEvents.map(event =>
@@ -102,7 +102,7 @@ export default function Events() {
               url={event.url}
             />
           )}
-        </div> */}
+        </div>
       </div>
     </div>
   );
