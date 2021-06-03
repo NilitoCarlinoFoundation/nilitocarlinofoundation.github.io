@@ -14,7 +14,7 @@ easter standard time.*/
 const eventList = [
    {
      id: 1,
-     date: new Date('2021-10-02T10:00:00-04:00'),
+     date: new Date('2021-10-03T10:00:00-04:00'),
      name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
      address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
      buttonName: 'Registration Closed',
