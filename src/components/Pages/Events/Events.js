@@ -17,7 +17,7 @@ const eventList = [
      date: new Date('2021-10-03T10:00:00-04:00'),
      name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
      address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
-     buttonName: 'Registration Closed',
+     buttonName: 'Register',
      url: null
 
   // {
@@ -25,7 +25,7 @@ const eventList = [
   //   date: new Date('2020-09-28T09:00:00-04:00'),
   //   name: 'Run Slow Road Race',
   //   address: 'Half Marathon Park, 987 La La Lane, Wala Wala, WA 12345',
-  //   buttonName: 'Register',
+  //   buttonName: 'Registration-Closed',
   //   url: null
   // },
   // {

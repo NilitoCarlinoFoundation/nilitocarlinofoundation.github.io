@@ -17,14 +17,14 @@ function Event({ name, date, address, buttonName, url }) {
         <div className="Event-time">{format(date, 'h:mma')}</div>
         <div className="Event-button-name">
       {/* When you are ready to post the Register button, uncomment this line and change the link*/}
-        {/*  <a
-            href="https://www.facebook.com/pages/category/Charity-Organization/Nilito-Carlino-Foundation-102451708055048/"
+          <a
+            href="https://racewire.com/register.php?id=12218"
             className="button-link"
             target="_blank"
             rel="noopener noreferrer"
           >
             {buttonName}
-          </a>*/}
+          </a>
         </div>
 
       </div>
