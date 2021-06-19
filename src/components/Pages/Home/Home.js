@@ -10,7 +10,7 @@ export default function Home() {
         <div>
   				<h1>The Nilito Carlino Foundation</h1>
   				<div className="content-text">
-  					The Nilito “Nick” Carlino Foundation is a non-profit, volunteer-led organization
+  					The Nilito “Nick” Carlino Foundation is a volunteer-led 501(c)(3) charitable organization
             created in the wake of Nick's untimely death. <br></br>
             <br></br>
 

@@ -43,7 +43,7 @@ export default function Sponsors() {
               </li>
               <li>
                 <h4><FontAwesomeIcon className="star-gold" icon={faStar} /> Gold </h4>
-                  <p>John Fitzmaurice  |  Mark and Elinor Klempner</p>
+                  <p>Rocky & Anna Carlino | John Fitzmaurice  |  Mark and Elinor Klempner</p>
               </li>
               <li>
                 <h4><FontAwesomeIcon className="star-silver" icon={faStar} /> Silver </h4>
@@ -53,9 +53,9 @@ export default function Sponsors() {
               </li>
               <li>
                 <h4><FontAwesomeIcon className="star-bronze" icon={faStar} /> Bronze </h4>
-                  <p> Bluefin Technology Partners, LLC  |  Downeast Doors - Ken Galanif | Germain Plumbing & Heating, Inc.
-                  | KC's Classic Burger Bar | Frank & Marty King |  Joseph and Kim Piro  | Bob Siris |
-                  Willis-McKinnon Insurance Agency, Inc. </p>
+                  <p> Bluefin Technology Partners, LLC  |  Cryan Landscape Contractors Inc. | Downeast Doors - Ken Galanif |
+                  Germain Plumbing & Heating, Inc. | KC's Classic Burger Bar | Frank & Marty King |  Omni Plumbing Inc. |
+                  Joseph and Kim Piro | Bob Siris | Willis-McKinnon Insurance Agency, Inc. </p>
               </li>
 						</ul>
 				</div>
