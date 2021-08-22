@@ -14,6 +14,15 @@ easter standard time.*/
 const eventList = [
    {
      id: 1,
+     date: new Date('2021-09-04T09:00:00-04:00'),
+     name: 'Attleboro Farmers Market',
+     address: 'Capron Park, 201 County Street, Attleboro, MA 02703',
+     buttonName: 'Register for the 5k here or at the Market!',
+     url: null
+   },
+
+   {
+     id: 2,
      date: new Date('2021-10-03T10:00:00-04:00'),
      name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
      address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',

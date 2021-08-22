@@ -13,6 +13,7 @@ import Home from './Pages/Home/Home';
 import Story from './Pages/Story/Story';
 import Foundation from './Pages/Foundation/Foundation';
 import Sponsors from './Pages/Sponsors/Sponsors';
+//import Sponsor from './Pages/Sponsors/Sponsor';
 import Events from './Pages/Events/Events';
 import Photos from './Pages/Photos/Photos';
 // import CarouselComponent from './Pages/Photos/Carousel.Component';
