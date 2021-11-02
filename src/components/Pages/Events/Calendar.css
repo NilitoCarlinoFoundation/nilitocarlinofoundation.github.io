@@ -1,6 +1,9 @@
-
-*, *:before, *:after {
--moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #calendar {
@@ -11,7 +14,8 @@
   margin: 0 auto;
   height: 570px;
   overflow: hidden;
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -19,7 +23,7 @@
   width: 420px;
   background: rgba(66, 66, 66, 1);
   text-align: center;
-  position:relative;
+  position: relative;
   z-index: 100;
 }
 
@@ -32,7 +36,8 @@
   letter-spacing: 1px;
 }
 
-.left, .right {
+.left,
+.right {
   position: absolute;
   width: 0px;
   height: 0px;
@@ -65,35 +70,35 @@
 }
 
 .month.in.next {
-  -webkit-animation: moveFromTopFadeMonth .4s ease-out;
-  -moz-animation: moveFromTopFadeMonth .4s ease-out;
-  animation: moveFromTopFadeMonth .4s ease-out;
+  -webkit-animation: moveFromTopFadeMonth 0.4s ease-out;
+  -moz-animation: moveFromTopFadeMonth 0.4s ease-out;
+  animation: moveFromTopFadeMonth 0.4s ease-out;
   opacity: 1;
 }
 
 .month.out.next {
-  -webkit-animation: moveToTopFadeMonth .4s ease-in;
-  -moz-animation: moveToTopFadeMonth .4s ease-in;
-  animation: moveToTopFadeMonth .4s ease-in;
+  -webkit-animation: moveToTopFadeMonth 0.4s ease-in;
+  -moz-animation: moveToTopFadeMonth 0.4s ease-in;
+  animation: moveToTopFadeMonth 0.4s ease-in;
   opacity: 1;
 }
 
 .month.in.prev {
-  -webkit-animation: moveFromBottomFadeMonth .4s ease-out;
-  -moz-animation: moveFromBottomFadeMonth .4s ease-out;
-  animation: moveFromBottomFadeMonth .4s ease-out;
+  -webkit-animation: moveFromBottomFadeMonth 0.4s ease-out;
+  -moz-animation: moveFromBottomFadeMonth 0.4s ease-out;
+  animation: moveFromBottomFadeMonth 0.4s ease-out;
   opacity: 1;
 }
 
 .month.out.prev {
-  -webkit-animation: moveToBottomFadeMonth .4s ease-in;
-  -moz-animation: moveToBottomFadeMonth .4s ease-in;
-  animation: moveToBottomFadeMonth .4s ease-in;
+  -webkit-animation: moveToBottomFadeMonth 0.4s ease-in;
+  -moz-animation: moveToBottomFadeMonth 0.4s ease-in;
+  animation: moveToBottomFadeMonth 0.4s ease-in;
   opacity: 1;
 }
 
 .week {
- background: #4A4A4A;
+  background: #4a4a4a;
 }
 
 .day {
@@ -109,7 +114,7 @@
 }
 
 .day.other {
- color: rgba(255, 255, 255, .3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .day.today {
@@ -121,14 +126,13 @@
   text-transform: uppercase;
   margin-bottom: 5px;
   color: #fff;
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
 }
 
 .day-number {
   font-size: 24px;
   letter-spacing: 1.5px;
 }
-
 
 .day .day-events {
   list-style: none;
@@ -150,10 +154,18 @@
   margin: 0 1px;
 }
 
-.blue { background: #4688fe; }
-.orange { background: rgba(247, 167, 0, 1); }
-.green { background: rgba(153, 198, 109, 1); }
-.yellow { background: rgba(249, 233, 0, 1); }
+.blue {
+  background: #4688fe;
+}
+.orange {
+  background: rgba(247, 167, 0, 1);
+}
+.green {
+  background: rgba(153, 198, 109, 1);
+}
+.yellow {
+  background: rgba(249, 233, 0, 1);
+}
 
 .details {
   position: relative;
@@ -167,15 +179,15 @@
 }
 
 .details.in {
-  -webkit-animation: moveFromTopFade .5s ease both;
-  -moz-animation: moveFromTopFade .5s ease both;
-  animation: moveFromTopFade .5s ease both;
+  -webkit-animation: moveFromTopFade 0.5s ease both;
+  -moz-animation: moveFromTopFade 0.5s ease both;
+  animation: moveFromTopFade 0.5s ease both;
 }
 
 .details.out {
-  -webkit-animation: moveToTopFade .5s ease both;
-  -moz-animation: moveToTopFade .5s ease both;
-  animation: moveToTopFade .5s ease both;
+  -webkit-animation: moveToTopFade 0.5s ease both;
+  -moz-animation: moveToTopFade 0.5s ease both;
+  animation: moveToTopFade 0.5s ease both;
 }
 
 .arrow {
@@ -199,33 +211,33 @@
 }
 
 .events.in {
-  -webkit-animation: fadeIn .3s ease both;
-  -moz-animation: fadeIn .3s ease both;
-  animation: fadeIn .3s ease both;
+  -webkit-animation: fadeIn 0.3s ease both;
+  -moz-animation: fadeIn 0.3s ease both;
+  animation: fadeIn 0.3s ease both;
 }
 
 .events.in {
-  -webkit-animation-delay: .3s;
-  -moz-animation-delay: .3s;
-  animation-delay: .3s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .details.out .events {
-  -webkit-animation: fadeOutShrink .4s ease both;
-  -moz-animation: fadeOutShink .4s ease both;
-  animation: fadeOutShink .4s ease both;
+  -webkit-animation: fadeOutShrink 0.4s ease both;
+  -moz-animation: fadeOutShink 0.4s ease both;
+  animation: fadeOutShink 0.4s ease both;
 }
 
 .events.out {
-  -webkit-animation: fadeOut .3s ease both;
-  -moz-animation: fadeOut .3s ease both;
-  animation: fadeOut .3s ease both;
+  -webkit-animation: fadeOut 0.3s ease both;
+  -moz-animation: fadeOut 0.3s ease both;
+  animation: fadeOut 0.3s ease both;
 }
 
 .event {
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   padding: 2px 16px;
   vertical-align: top;
 }
@@ -254,7 +266,6 @@
   height: 30px;
   background: rgba(60, 60, 60, 1);
   line-height: 30px;
-
 }
 
 .entry {
@@ -275,98 +286,191 @@
   left: 14px;
 }
 
-.entry.blue:after { background: rgba(156, 202, 235, 1); }
-.entry.orange:after { background: rgba(247, 167, 0, 1); }
-.entry.green:after { background: rgba(153, 198, 109, 1); }
-.entry.yellow:after { background: rgba(249, 233, 0, 1); }
+.entry.blue:after {
+  background: rgba(156, 202, 235, 1);
+}
+.entry.orange:after {
+  background: rgba(247, 167, 0, 1);
+}
+.entry.green:after {
+  background: rgba(153, 198, 109, 1);
+}
+.entry.yellow:after {
+  background: rgba(249, 233, 0, 1);
+}
 
 /* Animations are cool!  */
 @-webkit-keyframes moveFromTopFade {
-  from { opacity: .3; height:0px; margin-top:0px; -webkit-transform: translateY(-100%); }
+  from {
+    opacity: 0.3;
+    height: 0px;
+    margin-top: 0px;
+    -webkit-transform: translateY(-100%);
+  }
 }
 @-moz-keyframes moveFromTopFade {
-  from { height:0px; margin-top:0px; -moz-transform: translateY(-100%); }
+  from {
+    height: 0px;
+    margin-top: 0px;
+    -moz-transform: translateY(-100%);
+  }
 }
 @keyframes moveFromTopFade {
-  from { height:0px; margin-top:0px; transform: translateY(-100%); }
+  from {
+    height: 0px;
+    margin-top: 0px;
+    transform: translateY(-100%);
+  }
 }
 
 @-webkit-keyframes moveToTopFade {
-  to { opacity: .3; height:0px; margin-top:0px; opacity: 0.3; -webkit-transform: translateY(-100%); }
+  to {
+    opacity: 0.3;
+    height: 0px;
+    margin-top: 0px;
+    opacity: 0.3;
+    -webkit-transform: translateY(-100%);
+  }
 }
 @-moz-keyframes moveToTopFade {
-  to { height:0px; -moz-transform: translateY(-100%); }
+  to {
+    height: 0px;
+    -moz-transform: translateY(-100%);
+  }
 }
 @keyframes moveToTopFade {
-  to { height:0px; transform: translateY(-100%); }
+  to {
+    height: 0px;
+    transform: translateY(-100%);
+  }
 }
 
 @-webkit-keyframes moveToTopFadeMonth {
-  to { opacity: 0; -webkit-transform: translateY(-30%) scale(.95); }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(-30%) scale(0.95);
+  }
 }
 @-moz-keyframes moveToTopFadeMonth {
-  to { opacity: 0; -moz-transform: translateY(-30%); }
+  to {
+    opacity: 0;
+    -moz-transform: translateY(-30%);
+  }
 }
 @keyframes moveToTopFadeMonth {
-  to { opacity: 0; -moz-transform: translateY(-30%); }
+  to {
+    opacity: 0;
+    -moz-transform: translateY(-30%);
+  }
 }
 
 @-webkit-keyframes moveFromTopFadeMonth {
-  from { opacity: 0; -webkit-transform: translateY(30%) scale(.95); }
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(30%) scale(0.95);
+  }
 }
 @-moz-keyframes moveFromTopFadeMonth {
-  from { opacity: 0; -moz-transform: translateY(30%); }
+  from {
+    opacity: 0;
+    -moz-transform: translateY(30%);
+  }
 }
 @keyframes moveFromTopFadeMonth {
-  from { opacity: 0; -moz-transform: translateY(30%); }
+  from {
+    opacity: 0;
+    -moz-transform: translateY(30%);
+  }
 }
 
 @-webkit-keyframes moveToBottomFadeMonth {
-  to { opacity: 0; -webkit-transform: translateY(30%) scale(.95); }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(30%) scale(0.95);
+  }
 }
 @-moz-keyframes moveToBottomFadeMonth {
-  to { opacity: 0; -webkit-transform: translateY(30%); }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(30%);
+  }
 }
 @keyframes moveToBottomFadeMonth {
-  to { opacity: 0; -webkit-transform: translateY(30%); }
+  to {
+    opacity: 0;
+    -webkit-transform: translateY(30%);
+  }
 }
 
 @-webkit-keyframes moveFromBottomFadeMonth {
-  from { opacity: 0; -webkit-transform: translateY(-30%) scale(.95); }
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-30%) scale(0.95);
+  }
 }
 @-moz-keyframes moveFromBottomFadeMonth {
-  from { opacity: 0; -webkit-transform: translateY(-30%); }
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-30%);
+  }
 }
 @keyframes moveFromBottomFadeMonth {
-  from { opacity: 0; -webkit-transform: translateY(-30%); }
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-30%);
+  }
 }
 
-@-webkit-keyframes fadeIn  {
-  from { opacity: 0; }
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 }
-@-moz-keyframes fadeIn  {
-  from { opacity: 0; }
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 }
-@keyframes fadeIn  {
-  from { opacity: 0; }
-}
-
-@-webkit-keyframes fadeOut  {
-  to { opacity: 0; }
-}
-@-moz-keyframes fadeOut  {
-  to { opacity: 0; }
-}
-@keyframes fadeOut  {
-  to { opacity: 0; }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 }
 
-@-webkit-keyframes fadeOutShink  {
-  to { opacity: 0; padding: 0px; height: 0px; }
+@-webkit-keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
 }
-@-moz-keyframes fadeOutShink  {
-  to { opacity: 0; padding: 0px; height: 0px; }
+@-moz-keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
 }
-@keyframes fadeOutShink  {
-  to { opacity: 0; padding: 0px; height: 0px; }
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOutShink {
+  to {
+    opacity: 0;
+    padding: 0px;
+    height: 0px;
+  }
+}
+@-moz-keyframes fadeOutShink {
+  to {
+    opacity: 0;
+    padding: 0px;
+    height: 0px;
+  }
+}
+@keyframes fadeOutShink {
+  to {
+    opacity: 0;
+    padding: 0px;
+    height: 0px;
+  }
 }

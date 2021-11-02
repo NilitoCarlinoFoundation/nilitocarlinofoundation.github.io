@@ -1,0 +1,10 @@
+.Photos {
+  background-color: #232324;
+  margin: 40px;
+  padding: 40px;
+}
+
+.carousel-photo {
+  max-width: 100%;
+  max-height: 400px;
+}

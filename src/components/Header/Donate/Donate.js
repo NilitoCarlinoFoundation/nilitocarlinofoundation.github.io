@@ -6,14 +6,16 @@ import './Donate.css';
 export default function Donate({ showSocialMedia = false }) {
   return (
     <div className="Donate">
-
-      <form action="https://www.paypal.com/donate" method="post" target="_blank">
+      <form
+        action="https://www.paypal.com/donate"
+        method="post"
+        target="_blank"
+      >
         <input type="hidden" name="hosted_button_id" value="D84ZLNXQ25SSL" />
         <input type="submit" value="Donate" className="button-link" />
       </form>
 
-
-      { showSocialMedia &&
+      {showSocialMedia && (
         <>
           <a
             href="https://www.facebook.com/pages/category/Charity-Organization/Nilito-Carlino-Foundation-102451708055048/"
@@ -22,7 +24,7 @@ export default function Donate({ showSocialMedia = false }) {
           >
             <FontAwesomeIcon
               className="Donate-icon"
-              icon={["fab", "facebook"]}
+              icon={['fab', 'facebook']}
             />
           </a>
 
@@ -33,12 +35,11 @@ export default function Donate({ showSocialMedia = false }) {
           >
             <FontAwesomeIcon
               className="Donate-icon"
-              icon={["fab", "instagram"]}
+              icon={['fab', 'instagram']}
             />
           </a>
         </>
-      }
-
+      )}
     </div>
   );
 }

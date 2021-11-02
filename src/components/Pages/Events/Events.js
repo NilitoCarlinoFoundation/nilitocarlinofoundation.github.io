@@ -12,68 +12,64 @@ stamps for eastern time. Time = hrs mins secs. 08:00 is 8am and minus 04:00 make
 easter standard time.*/
 
 const eventList = [
-   {
-     id: 1,
-     date: new Date('2021-09-04T09:00:00-04:00'),
-     name: 'Attleboro Farmers Market',
-     address: 'Capron Park, 201 County Street, Attleboro, MA 02703',
-     buttonName: 'Register for the 5k here or at the Market!',
-     url: null
-   },
+  {
+    id: 1,
+    date: new Date('2021-09-04T09:00:00-04:00'),
+    name: 'Attleboro Farmers Market',
+    address: 'Capron Park, 201 County Street, Attleboro, MA 02703',
+    buttonName: 'Register for the 5k here or at the Market!',
+    url: null
+  },
 
-   {
-     id: 2,
-     date: new Date('2021-10-03T10:00:00-04:00'),
-     name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
-     address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
-     buttonName: 'Register',
-     url: null
+  {
+    id: 2,
+    date: new Date('2021-10-03T10:00:00-04:00'),
+    name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
+    address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
+    buttonName: 'Register',
+    url: null
 
-  // {
-  //   id: 2,
-  //   date: new Date('2020-09-28T09:00:00-04:00'),
-  //   name: 'Run Slow Road Race',
-  //   address: 'Half Marathon Park, 987 La La Lane, Wala Wala, WA 12345',
-  //   buttonName: 'Registration-Closed',
-  //   url: null
-  // },
-  // {
-  //   id: 3,
-  //   date: new Date('2019-06-01T09:00:00-04:00'),
-  //   name: 'What the Hill Road Race',
-  //   address: 'Tall Hill Park, 111 Hill St, Attleboro, MA 12345',
-  //   buttonName: 'Results',
-  //   url: null
-   }
+    // {
+    //   id: 2,
+    //   date: new Date('2020-09-28T09:00:00-04:00'),
+    //   name: 'Run Slow Road Race',
+    //   address: 'Half Marathon Park, 987 La La Lane, Wala Wala, WA 12345',
+    //   buttonName: 'Registration-Closed',
+    //   url: null
+    // },
+    // {
+    //   id: 3,
+    //   date: new Date('2019-06-01T09:00:00-04:00'),
+    //   name: 'What the Hill Road Race',
+    //   address: 'Tall Hill Park, 111 Hill St, Attleboro, MA 12345',
+    //   buttonName: 'Results',
+    //   url: null
+  }
 ];
 
- const useEvents = (events) =>
-   useMemo(
-     () => {
-       const today = new Date();
-       const upcomingEvents = [];
-       const pastEvents = [];
+const useEvents = (events) =>
+  useMemo(() => {
+    const today = new Date();
+    const upcomingEvents = [];
+    const pastEvents = [];
 
-       events.forEach(event => {
-         if (isAfter(event.date, today) || isToday(event.date)) {
-           upcomingEvents.push(event);
-         } else {
-           pastEvents.push(event);
-         }
-       });
+    events.forEach((event) => {
+      if (isAfter(event.date, today) || isToday(event.date)) {
+        upcomingEvents.push(event);
+      } else {
+        pastEvents.push(event);
+      }
+    });
 
-       return { upcomingEvents, pastEvents };
-     },
-     [events]
-   );
+    return { upcomingEvents, pastEvents };
+  }, [events]);
 
 export default function Events() {
-   /*add pastEvents to line 63 when ready. Format = upcomingEvents, pastEvents  */
-   const { upcomingEvents } = useEvents(eventList);
+  /*add pastEvents to line 63 when ready. Format = upcomingEvents, pastEvents  */
+  const { upcomingEvents } = useEvents(eventList);
 
   return (
     <div className="Events">
-
       <div className="Events-calendar">
         <Calendar events={eventList} />
       </div>
@@ -81,9 +77,9 @@ export default function Events() {
       <div className="Events-content">
         <div className="content Events-upcoming">
           <h1>Upcoming Events</h1>
-            {/*<div><h2>Coming Soon!!</h2></div>*/}
+          {/*<div><h2>Coming Soon!!</h2></div>*/}
 
-          {upcomingEvents.map(event =>
+          {upcomingEvents.map((event) => (
             <Event
               key={event.id}
               date={event.date}
@@ -92,11 +88,10 @@ export default function Events() {
               buttonName={event.buttonName}
               url={event.url}
             />
-          )}
-
+          ))}
         </div>
 
-{/* Uncomment the section below, lines 92-105, to populate the "Past Events" section of the Events page */}
+        {/* Uncomment the section below, lines 92-105, to populate the "Past Events" section of the Events page */}
 
         {/*<div className="content">
           <h1>Past Events</h1>

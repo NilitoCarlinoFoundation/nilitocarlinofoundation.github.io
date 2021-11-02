@@ -20,7 +20,7 @@ import Photos from './Pages/Photos/Photos';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Footer/Footer';
 
-library.add(fab, faCheckSquare, faCoffee)
+library.add(fab, faCheckSquare, faCoffee);
 /*end of FB and star icons*/
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
       <div className="App">
         <div className="wrapper">
           <Header />
-            {/* A <Switch> looks through its children <Route>s and
+          {/* A <Switch> looks through its children <Route>s and
              renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/contact">
@@ -53,7 +53,6 @@ function App() {
             <Route path="/">
               <Home />
             </Route>
-
           </Switch>
         </div>
         <Footer />

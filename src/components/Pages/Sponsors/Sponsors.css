@@ -1,31 +1,31 @@
 .Sponsors {
-	display: flex;
+  display: flex;
 }
 
 .contributors-list,
 .Sponsors-list {
-	list-style-type: none;
-	padding: 0px;
+  list-style-type: none;
+  padding: 0px;
 }
 
 .diamond {
-  color: #4688FE;
+  color: #4688fe;
 }
 
 .star-gold {
-  color: #F7EB56;
+  color: #f7eb56;
 }
 
 .star-silver {
-  color: #ABABAB;
+  color: #ababab;
 }
 
 .star-bronze {
-  color: #C28534;
+  color: #c28534;
 }
 
 .star-platinum {
-  color: #E5E4E2;
+  color: #e5e4e2;
 }
 
 .Sponsors .content {

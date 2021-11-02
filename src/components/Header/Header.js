@@ -5,9 +5,9 @@ import Donate from './Donate/Donate';
 import './Header.css';
 
 export default function Header() {
-	return (
-		<header className="Header">
-    	<img src="Nick_logo.png" className="Header-logo" alt="Nick_logo" />
+  return (
+    <header className="Header">
+      <img src="Nick_logo.png" className="Header-logo" alt="Nick_logo" />
       <Nav />
       <Donate showSocialMedia />
 
@@ -19,6 +19,6 @@ export default function Header() {
         	>
           		Marc is a total Joba
         	</a>*/}
-  	</header>
-    );
+    </header>
+  );
 }

@@ -1,4 +1,12 @@
-import React, { memo, useCallback, useState, useMemo, useRef, useEffect, forwardRef } from "react";
+import React, {
+  memo,
+  useCallback,
+  useState,
+  useMemo,
+  useRef,
+  useEffect,
+  forwardRef
+} from 'react';
 import {
   format,
   isToday,
@@ -11,11 +19,11 @@ import {
   addMonths,
   subDays,
   subMonths,
-  isSameWeek,
-} from "date-fns";
-import clsx from "clsx";
+  isSameWeek
+} from 'date-fns';
+import clsx from 'clsx';
 
-import "./Calendar.css";
+import './Calendar.css';
 
 const useCalendarWeeks = (date) =>
   useMemo(() => {
@@ -61,23 +69,27 @@ const weekKey = (week) => {
   return `week-${+firstDay}-${+lastDay}`;
 };
 
-const dayKey = (date) => format(date, "yyyyMMdd");
+const dayKey = (date) => format(date, 'yyyyMMdd');
 
-const Day = memo(forwardRef(({ day, className, events, selected, setSelectedDate }, ref) => {
-  const selectDay = useCallback(() => {
-    setSelectedDate(day);
-  }, [day, setSelectedDate]);
+const Day = memo(
+  forwardRef(({ day, className, events, selected, setSelectedDate }, ref) => {
+    const selectDay = useCallback(() => {
+      setSelectedDate(day);
+    }, [day, setSelectedDate]);
 
-  return (
-    <div key={day} className={className} onClick={selectDay} ref={ref}>
-      <div className="day-name">{format(day, "eee")}</div>
-      <div className="day-number">{format(day, "dd")}</div>
-      <div className="day-events">
-        {events?.map((event) => <span className="blue" key={event.id} />)}
+    return (
+      <div key={day} className={className} onClick={selectDay} ref={ref}>
+        <div className="day-name">{format(day, 'eee')}</div>
+        <div className="day-number">{format(day, 'dd')}</div>
+        <div className="day-events">
+          {events?.map((event) => (
+            <span className="blue" key={event.id} />
+          ))}
+        </div>
       </div>
-    </div>
-  );
-}));
+    );
+  })
+);
 
 const WeekRow = memo(
   ({ week, eventsByDate, date, selectedDate, setSelectedDate }) => {
@@ -93,28 +105,31 @@ const WeekRow = memo(
       if (!displayDetails) return;
 
       const dayEl = selecetedDayRef.current;
-      arrowRef.current.style.left = dayEl.offsetLeft - dayEl.parentNode.offsetLeft + 27 + 'px';
+      arrowRef.current.style.left =
+        dayEl.offsetLeft - dayEl.parentNode.offsetLeft + 27 + 'px';
     }, [displayDetails, selectedDate]);
 
     return (
       <div className="week">
         {week.map((day) => {
-          const selected = Boolean(selectedDate) && isSameDay(day, selectedDate);
+          const selected =
+            Boolean(selectedDate) && isSameDay(day, selectedDate);
           return (
-          <Day
-            key={day}
-            className={clsx(
-              "day",
-              !isSameMonth(day, date) && "other",
-              isToday(day) && "today"
-            )}
-            day={day}
-            events={eventsByDate[dayKey(day)]}
-            selected={selected}
-            setSelectedDate={setSelectedDate}
-            ref={selected ? selecetedDayRef : null}
-          />
-        )})}
+            <Day
+              key={day}
+              className={clsx(
+                'day',
+                !isSameMonth(day, date) && 'other',
+                isToday(day) && 'today'
+              )}
+              day={day}
+              events={eventsByDate[dayKey(day)]}
+              selected={selected}
+              setSelectedDate={setSelectedDate}
+              ref={selected ? selecetedDayRef : null}
+            />
+          );
+        })}
         {displayDetails && (
           <div className="details in">
             <div className="arrow" ref={arrowRef} />
@@ -163,7 +178,7 @@ const Calendar = ({ events }) => {
   return (
     <div id="calendar">
       <div className="header">
-        <h1>{format(date, "MMMM yyyy")}</h1>
+        <h1>{format(date, 'MMMM yyyy')}</h1>
         <div className="right" onClick={selectNextMonth} />
         <div className="left" onClick={selectPrevMonth} />
       </div>

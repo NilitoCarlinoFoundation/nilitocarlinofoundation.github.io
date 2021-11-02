@@ -1,5 +1,5 @@
 .Home {
-	display: flex;
+  display: flex;
 }
 
 .Home .button-link {
@@ -12,5 +12,3 @@
   align-self: center;
   padding-top: 75px;
 }
-
-
