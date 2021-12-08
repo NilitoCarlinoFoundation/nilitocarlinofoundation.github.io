@@ -44,14 +44,15 @@ export default function Sponsors() {
                 <FontAwesomeIcon className="star-platinum" icon={faStar} />{' '}
                 Platinum{' '}
               </h4>
+              <p> Mark & Elinor Klempner | Dave & Diane Legg
+              </p>
             </li>
             <li>
               <h4>
                 <FontAwesomeIcon className="star-gold" icon={faStar} /> Gold{' '}
               </h4>
               <p>
-                Rocky & Anna Carlino | John Fitzmaurice | Mark and Elinor
-                Klempner
+                Rocky & Anna Carlino | John Fitzmaurice
               </p>
             </li>
             <li>
@@ -59,10 +60,10 @@ export default function Sponsors() {
                 <FontAwesomeIcon className="star-silver" icon={faStar} /> Silver{' '}
               </h4>
               <p>
-                Jeffrey and Suzette Brousseau | Lorraine Legg | Lipsett and
-                Sons, Inc. | Mike, Bonnie & Harry Marcel | Jonathan and Amanda
+                Jeffrey & Suzette Brousseau | Ted & Leslie Burns | Lorraine Legg | Lipsett & Sons, Inc. |
+                Mike, Bonnie & Harry Marcel | Jonathan & Amanda
                 Metzger | Neurology Partners, P.C. | Pawtucket Credit Union |
-                Janet Salomon
+                Janet Salomon | Southampton Bath & Tennis Club | Wacky's Landscaping
               </p>
             </li>
             <li>
@@ -72,9 +73,9 @@ export default function Sponsors() {
               <p>
                 {' '}
                 Bluefin Technology Partners, LLC | Cryan Landscape Contractors
-                Inc. | Downeast Doors - Ken Galanif | Germain Plumbing &
+                Inc. | Downeast Doors - Ken Galanif | Mark Frano, CPA | Germain Plumbing &
                 Heating, Inc. | KC's Classic Burger Bar | Frank & Marty King |
-                Omni Plumbing Inc. | Joseph and Kim Piro | Bob Siris |
+                Nap's Maintenance Service Inc. | Omni Plumbing Inc. | Joseph and Kim Piro | Bob Siris |
                 Willis-McKinnon Insurance Agency, Inc.{' '}
               </p>
             </li>
