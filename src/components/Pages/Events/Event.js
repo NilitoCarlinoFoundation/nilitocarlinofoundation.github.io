@@ -16,7 +16,7 @@ function Event({ name, date, address, buttonName, url }) {
         <div className="Event-address">{address}</div>
         <div className="Event-time">{format(date, 'h:mma')}</div>
         <div className="Event-button-name">
-          {/* When you are ready to post the Register button, uncomment this line and change the link*/}
+          {/* When you are ready to post the Register button, uncomment this line and change the link
           <a
             href="https://racewire.com/register.php?id=12218"
             className="button-link"
@@ -24,7 +24,7 @@ function Event({ name, date, address, buttonName, url }) {
             rel="noopener noreferrer"
           >
             {buttonName}
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
