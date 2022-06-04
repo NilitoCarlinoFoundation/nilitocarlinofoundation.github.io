@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Home.css';
+import NickChef from '../../../assets/images/Nick_Chef_BW.png';
 import Donate from '../../Header/Donate/Donate';
 
 export default function Home() {
@@ -42,7 +43,7 @@ export default function Home() {
       </div>
 
       <div className="content-image">
-        <img src="/Nick_Chef_BW.png" alt="Nick Chef" />
+        <img src={NickChef} alt="Nick Chef" />
       </div>
     </div>
   );

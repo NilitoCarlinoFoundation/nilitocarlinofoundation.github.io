@@ -2,12 +2,13 @@ import React from 'react';
 
 import Nav from './Nav/Nav';
 import Donate from './Donate/Donate';
+import logo from '../../assets/images/Nick_logo.png';
 import './Header.css';
 
 export default function Header() {
   return (
     <header className="Header">
-      <img src="Nick_logo.png" className="Header-logo" alt="Nick_logo" />
+      <img src={logo} className="Header-logo" alt="Nick_logo" />
       <Nav />
       <Donate showSocialMedia />
 

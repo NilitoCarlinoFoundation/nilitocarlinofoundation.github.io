@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 import './Donate.css';
 
@@ -24,7 +25,7 @@ export default function Donate({ showSocialMedia = false }) {
           >
             <FontAwesomeIcon
               className="Donate-icon"
-              icon={['fab', 'facebook']}
+              icon={brands('facebook')}
             />
           </a>
 
@@ -35,7 +36,7 @@ export default function Donate({ showSocialMedia = false }) {
           >
             <FontAwesomeIcon
               className="Donate-icon"
-              icon={['fab', 'instagram']}
+              icon={brands('instagram')}
             />
           </a>
         </>

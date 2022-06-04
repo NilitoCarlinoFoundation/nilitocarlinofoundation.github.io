@@ -1,13 +1,7 @@
 import React from 'react';
 // import logo from '../logo.svg';
 import '../styles/App.css';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
-
-/* Here's where I can grab FB and star icons*/
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
-
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Header/Header';
 import Home from './Pages/Home/Home';
 import Story from './Pages/Story/Story';
@@ -20,40 +14,23 @@ import Photos from './Pages/Photos/Photos';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Footer/Footer';
 
-library.add(fab, faCheckSquare, faCoffee);
-/*end of FB and star icons*/
-
 function App() {
   return (
     <Router>
       <div className="App">
         <div className="wrapper">
           <Header />
-          {/* A <Switch> looks through its children <Route>s and
+          {/* A <Routes> looks through its children <Route>s and
              renders the first one that matches the current URL. */}
-          <Switch>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/photos">
-              <Photos />
-            </Route>
-            <Route path="/events">
-              <Events />
-            </Route>
-            <Route path="/sponsors">
-              <Sponsors />
-            </Route>
-            <Route path="/foundation">
-              <Foundation />
-            </Route>
-            <Route path="/story">
-              <Story />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/photos" element={<Photos />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/sponsors" element={<Sponsors />} />
+            <Route path="/foundation" element={<Foundation />} />
+            <Route path="/story" element={<Story />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
         </div>
         <Footer />
       </div>

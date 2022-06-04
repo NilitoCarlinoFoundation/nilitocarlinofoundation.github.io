@@ -1,12 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
+import '@fontsource/open-sans/latin-300';
+import '@fontsource/open-sans/latin-300-italic';
+import '@fontsource/open-sans/latin-400';
+import '@fontsource/open-sans/latin-400-italic';
+import '@fontsource/open-sans/latin-600';
+import '@fontsource/open-sans/latin-600-italic';
+import '@fontsource/open-sans/latin-700';
+import '@fontsource/open-sans/latin-700-italic';
+import '@fontsource/fjalla-one';
 import './styles/index.css';
 import App from './components/App';
-import * as serviceWorker from './utils/serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

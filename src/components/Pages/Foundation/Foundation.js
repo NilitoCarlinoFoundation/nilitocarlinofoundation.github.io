@@ -1,5 +1,6 @@
 import React from 'react';
 
+import NickAndRocco from '../../../assets/images/Nick_Rocco_II.png';
 import './Foundation.css';
 
 export default function Foundation() {
@@ -28,7 +29,7 @@ export default function Foundation() {
       </div>
 
       <div className="content-image">
-        <img src="/Nick_Rocco_II.png" alt="Nick and Rocco" />
+        <img src={NickAndRocco} alt="Nick and Rocco" />
       </div>
     </div>
   );

@@ -1,12 +1,13 @@
 import React from 'react';
 
+import NickAndRocco from '../../../assets/images/Nick_Rocco_DW_II.png';
 import './Story.css';
 
 export default function Story() {
   return (
     <div className="Story">
       <div className="content-image">
-        <img src="/Nick_Rocco_DW_II.png" alt="Nick and Rocco DW" />
+        <img src={NickAndRocco} alt="Nick and Rocco DW" />
       </div>
 
       <div className="content">
