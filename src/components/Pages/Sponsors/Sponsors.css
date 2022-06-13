@@ -3,7 +3,8 @@
 }
 
 .contributors-list,
-.Sponsors-list {
+.Sponsors-list,
+.board-list {
   list-style-type: none;
   padding: 0px;
 }

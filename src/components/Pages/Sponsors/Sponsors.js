@@ -13,7 +13,7 @@ export default function Sponsors() {
           Thank you to our generous contributors for supporting The Nilito
           Carlino Foundation:
           <ul className="contributors-list">
-            <li>Rocco R Carlino III</li>
+            <li>Rocco R. Carlino III</li>
             <li>Joanne Brousseau</li>
             <li>Team Challenge</li>
 
@@ -23,6 +23,21 @@ export default function Sponsors() {
 							<li>Amy & Patrick Miller</li>
 							<li>K. Landry</li>
 							<li>Pop's Candy Store</li> */}
+          </ul>
+        </div>
+
+        <h1>Board Members</h1>
+        <div className="content-text">
+          Meet our dedicated team...we could not do this without you!
+          <ul className="board-list">
+            <li>Rocco R. Carlino III - President</li>
+            <li>Marc Blandin - Vice President</li>
+            <li>Joanne Brousseau - Treasurer</li>
+            <li>Sharon Lecuyer - Secretary</li>
+            <li>Leslie Burns</li>
+            <li>Jacquelyn Hope</li>
+            <li>Carol Lipsett</li>
+            <li>Leanne Wilson</li>
           </ul>
         </div>
       </div>
