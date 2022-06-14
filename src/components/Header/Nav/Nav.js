@@ -24,7 +24,7 @@ export default function Nav() {
         </li>
 
         <li>
-          <NavLink to="/sponsors">Contributors</NavLink>
+          <NavLink to="/sponsors">Sponsors</NavLink>
         </li>
 
         <li>
