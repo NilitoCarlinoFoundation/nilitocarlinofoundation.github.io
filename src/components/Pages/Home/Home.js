@@ -20,7 +20,8 @@ export default function Home() {
             well as to provide financial support to the{' '}
             <a
               className="text-link"
-              href="http://attleborotrack.com/"
+              // href="http://attleborotrack.com/" link broken as of May 2022
+              href="https://jillianellis3.wixsite.com/attleborotrack"
               target="_blank"
               rel="noopener noreferrer"
             >

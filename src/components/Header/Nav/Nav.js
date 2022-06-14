@@ -12,11 +12,15 @@ export default function Nav() {
         </li>
 
         <li>
-          <NavLink to="/story">Nilito's Story</NavLink>
+          <NavLink to="/story">Nilito</NavLink>
         </li>
 
         <li>
           <NavLink to="/foundation">Foundation</NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/scholarships">Scholarships</NavLink>
         </li>
 
         <li>
@@ -32,7 +36,7 @@ export default function Nav() {
         </li>
 
         <li>
-          <NavLink to="/contact">Contact Us</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </nav>

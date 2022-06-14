@@ -8,6 +8,7 @@ import Story from './Pages/Story/Story';
 import Foundation from './Pages/Foundation/Foundation';
 import Sponsors from './Pages/Sponsors/Sponsors';
 //import Sponsor from './Pages/Sponsors/Sponsor';
+import Scholarships from './Pages/Scholarships/Scholarships';
 import Events from './Pages/Events/Events';
 import Photos from './Pages/Photos/Photos';
 // import CarouselComponent from './Pages/Photos/Carousel.Component';
@@ -27,6 +28,7 @@ function App() {
             <Route path="/photos" element={<Photos />} />
             <Route path="/events" element={<Events />} />
             <Route path="/sponsors" element={<Sponsors />} />
+            <Route path="/scholarships" element={<Scholarships />} />
             <Route path="/foundation" element={<Foundation />} />
             <Route path="/story" element={<Story />} />
             <Route path="/" element={<Home />} />
