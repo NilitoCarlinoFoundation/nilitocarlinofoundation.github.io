@@ -62,14 +62,14 @@ export default function Sponsors() {
                 />{' '}
                 Platinum{' '}
               </h4>
-              <p> Mark & Elinor Klempner | Dave & Diane Legg</p>
+              <p> Cryan Landscape Contractors Inc. | Harbor One Bank | Mark & Elinor Klempner | Dave & Diane Legg</p>
             </li>
             <li>
               <h4>
                 <FontAwesomeIcon className="star-gold" icon={solid('star')} />{' '}
                 Gold{' '}
               </h4>
-              <p>Rocky & Anna Carlino | John Fitzmaurice</p>
+              <p>Rocky & Anna Carlino | John Fitzmaurice | Leanne Wilson</p>
             </li>
             <li>
               <h4>
@@ -77,10 +77,10 @@ export default function Sponsors() {
                 Silver{' '}
               </h4>
               <p>
-                Jeffrey & Suzette Brousseau | Ted & Leslie Burns | Lorraine Legg
+                Jeffrey & Suzette Brousseau | Ted & Leslie Burns | Kenny & Jessi Galanif | Lorraine Legg
                 | Lipsett & Sons, Inc. | Mike, Bonnie & Harry Marcel | Jonathan
-                & Amanda Metzger | Neurology Partners, P.C. | Pawtucket Credit
-                Union | Janet Salomon | Southampton Bath & Tennis Club | Wacky's
+                & Amanda Metzger | Morin's Catering | Neurology Partners, P.C. | Pawtucket Credit
+                Union | Janet Salomon | Southampton Bath & Tennis Club | Dr. John Sullivan | Wacky's
                 Landscaping
               </p>
             </li>
@@ -91,12 +91,11 @@ export default function Sponsors() {
               </h4>
               <p>
                 {' '}
-                Bluefin Technology Partners, LLC | Cryan Landscape Contractors
-                Inc. | Downeast Doors - Ken Galanif | Mark Frano, CPA | Germain
-                Plumbing & Heating, Inc. | KC's Classic Burger Bar | Frank &
-                Marty King | Nap's Maintenance Service Inc. | Omni Plumbing Inc.
-                | Joseph and Kim Piro | Bob Siris | Willis-McKinnon Insurance
-                Agency, Inc.{' '}
+                Bluefin Technology Partners, LLC | Downeast Doors - Ken Galanif | Mark Frano, CPA | Germain
+                Plumbing & Heating, Inc. | KC's Classic Burger Bar | Frank & Marty King |
+                The Leary Family | Scott Lipsett | Nap's Maintenance Service Inc. | Omni Plumbing Inc.
+                | Joseph and Kim Piro | Pop Tops Sportswear | Bob Siris | Julianne Townsend |
+                Willis-McKinnon Insurance Agency, Inc.{' '}
               </p>
             </li>
           </ul>
