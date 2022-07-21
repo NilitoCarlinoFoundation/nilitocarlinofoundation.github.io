@@ -13,7 +13,7 @@ export default function Story() {
       <div className="content">
         <h1>Scholarship Recipients</h1>
         <div className="content-text">
-         $2,500 scholarship recipient, Felicity Norton
+         $2,500 scholarship recipient, Felicity Norlin
           <p>
           We are so pleased to announce that the foundation's first scholarship was awarded on May 19th, 2022 at Attleboro High School
           to Felicity Norlin who will be attending Johnson & Wales University in the fall. Congratulations, Felicity!
