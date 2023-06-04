@@ -18,7 +18,7 @@ function Event({ name, date, address, buttonName, url }) {
         <div className="Event-button-name">
           {/* When you are ready to post the Register button, uncomment this line and change the link*/}
           <a
-            href="https://racewire.com/register.php?id=12869"
+            href="https://racewire.com/register.php?id=13349"
             className="button-link"
             target="_blank"
             rel="noopener noreferrer"
