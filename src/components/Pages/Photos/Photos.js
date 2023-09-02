@@ -7,6 +7,7 @@ import classes from './Photos.module.css';
 const images = [
   { src: '/carousel/01_nick_flag.jpg', alt: 'Nick Flag' },
   { src: '/carousel/5kRaceHat.jpg', alt: '5k Race Hat' },
+  { src: '/carousel/FirstScholarshipRecipient.png' },
   { src: '/carousel/Y1_DSC_Remote.jpg', alt: 'Remote Participants'},
   { src: '/carousel/Y1_DSC_5778.jpg', alt: 'Lori' },
   { src: '/carousel/Y1_DSC_5787.jpg', alt: 'Lori Family' },
