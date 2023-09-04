@@ -45,7 +45,11 @@ export default function Sponsors() {
       <div className="content">
         <h1>Sponsors</h1>
         <div className="content-text">
-          Thank you to our wonderful sponsors for your never-ending support:
+          Thank you to our wonderful sponsors for your never-ending support!
+          <p>
+          Interested in becoming a sponsor?
+          Please email us at <i>nilitocarlinofoundation@gmail.com</i>
+          </p>
           {/*Wrap ul below in scrolling container*/}
           <ul className="Sponsors-list">
             <li>
