@@ -17,17 +17,18 @@ export default function Home() {
             <br></br>
             Our mission is to raise funds for an annual academic Culinary Arts
             Scholarship to be awarded to a graduate of Attleboro High School as
-            well as to provide financial support to the{' '}
-            <a
+            well as to provide financial support to the Attleboro High {' '}
+
+            {/*<a
               className="text-link"
-              // href="http://attleborotrack.com/" link broken as of May 2022
+              href="http://attleborotrack.com/" //link broken as of May, 2022
               href="https://jillianellis3.wixsite.com/attleborotrack"
               target="_blank"
               rel="noopener noreferrer"
             >
               Attleboro High School Track & Field program
-            </a>{' '}
-            and{' '}
+           </a>{' '}
+            and{' '}*/}
             <a
               className="text-link"
               href="https://www.facebook.com/attleborobestbuddies/"
@@ -36,7 +37,7 @@ export default function Home() {
             >
               Chapter of Best Buddies
             </a>
-            .
+
           </div>
         </div>
         {/*Line 31 calls the component that's imported in line 4*/}
