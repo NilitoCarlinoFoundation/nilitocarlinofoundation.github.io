@@ -80,7 +80,12 @@ export default function Photos() {
       <Carousel responsive={responsive} showDots infinite autoPlay>
         {images.map(({ src, alt }, index) => (
           <div key={index}>
-            <img src={src} alt={alt} className={classes['carousel-photo']} />
+            <img
+              src={src}
+              alt={alt}
+              className={classes['carousel-photo']}
+              loading="lazy"
+            />
           </div>
         ))}
       </Carousel>
