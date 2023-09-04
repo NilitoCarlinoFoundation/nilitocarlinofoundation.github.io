@@ -19,7 +19,7 @@ const images = [
   { src: '/carousel/Golf4.jpg', alt: 'Golf4' },
   { src: '/carousel/Y1_DSC_5808.jpg', alt: 'Rocco 1' },
   { src: '/carousel/Golf5.jpg', alt: 'Golf5' },
-  { src: '/carousel/Golf25.jpeg', alt: 'Golf25' },
+  { src: '/carousel/Golf25.jpg', alt: 'Golf25' },
   { src: '/carousel/03_nick_tc.jpg', alt: 'Nick TC' },
   { src: '/carousel/Y1_DSC_5844.jpg', alt: '5k_Volunteers 2' },
   { src: '/carousel/04_nick_baby.jpg', alt: 'Nick Baby' },
