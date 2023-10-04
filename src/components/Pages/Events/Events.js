@@ -12,22 +12,15 @@ stamps for eastern time. Time = hrs mins secs. 08:00 is 8am and minus 04:00 make
 easter standard time.*/
 
 const eventList = [
-  {
-    id: 1,
-    date: new Date('2021-09-04T09:00:00-04:00'),
-    name: 'Attleboro Farmers Market',
-    address: 'Capron Park, 201 County Street, Attleboro, MA 02703',
-    buttonName: 'Register for the 5k here or at the Market!',
-    url: null
-  },
 
   {
-    id: 2,
+    id: 1,
     date: new Date('2023-10-01T10:00:00-04:00'),
     name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
     address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
-    buttonName: 'Register',
+    buttonName: 'Results',
     url: null
+  },
 
     // {
     //   id: 2,
@@ -44,7 +37,8 @@ const eventList = [
     //   address: 'Tall Hill Park, 111 Hill St, Attleboro, MA 12345',
     //   buttonName: 'Results',
     //   url: null
-  }
+  // }
+
 ];
 
 const useEvents = (events) =>
@@ -65,8 +59,8 @@ const useEvents = (events) =>
   }, [events]);
 
 export default function Events() {
-  /*add pastEvents to line 63 when ready. Format = upcomingEvents, pastEvents  */
-  const { upcomingEvents } = useEvents(eventList);
+  /*add pastEvents to line 69 when ready. Format = upcomingEvents, pastEvents  */
+  const { upcomingEvents, pastEvents } = useEvents(eventList);
 
   return (
     <div className="Events">
@@ -91,9 +85,9 @@ export default function Events() {
           ))}
         </div>
 
-        {/* Uncomment the section below, lines 92-105, to populate the "Past Events" section of the Events page */}
+        {/* Uncomment the section below, lines 90-103, to populate the "Past Events" section of the Events page */}
 
-        {/*<div className="content">
+        <div className="content">
           <h1>Past Events</h1>
 
           {pastEvents.map(event =>
@@ -106,7 +100,7 @@ export default function Events() {
               url={event.url}
             />
           )}
-        </div>*/}
+        </div>
       </div>
     </div>
   );
