@@ -35,8 +35,28 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Chapter of Best Buddies
+              Chapter of Best Buddies.
             </a>
+            <p>
+             We are also proud supporters of the {''}
+            <a
+              className="text-link"
+              href="https://www.mareinc.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            Massachusetts Adoption Resource Exchange
+            </a>
+            {" "} and the {''}
+            <a
+              className="text-link"
+              href="https://attleboroymca.org/locations/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            Attleboro Norton YMCA
+            </a>
+            </p>
 
           </div>
         </div>

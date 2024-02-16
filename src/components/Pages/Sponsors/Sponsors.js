@@ -99,7 +99,7 @@ export default function Sponsors() {
                 Plumbing & Heating, Inc. | KC's Classic Burger Bar | Frank & Marty King |
                 The Leary Family | Scott Lipsett | Nap's Maintenance Service Inc. | Omni Plumbing Inc.
                 | Joseph and Kim Piro | Pop Tops Sportswear | Bob Siris | Julianne Townsend |
-                Willis-McKinnon Insurance Agency, Inc.{' '}
+                Willis-MacKinnon Insurance Agency, Inc.{' '}
               </p>
             </li>
           </ul>
