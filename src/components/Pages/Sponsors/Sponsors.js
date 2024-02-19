@@ -33,7 +33,7 @@ export default function Sponsors() {
             <li>Rocco R. Carlino III - President</li>
             <li>Marc Blandin - Vice President</li>
             <li>Joanne Brousseau - Treasurer</li>
-            <li>Sharon Lecuyer - Secretary</li>
+            <li>Sharon Lecuyer - Secretary, Website Manager</li>
             <li>Leslie Burns</li>
             <li>Jacquelyn Hope</li>
             <li>Carol Lipsett</li>
@@ -66,7 +66,25 @@ export default function Sponsors() {
                 />{' '}
                 Platinum{' '}
               </h4>
-              <p> Cryan Landscape Contractors Inc. | Harbor One Bank | Mark & Elinor Klempner | Dave & Diane Legg</p>
+              <p>
+              <a
+              className="text-link"
+              href="https://www.cryanlandscape.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Cryan Landscape Contractors Inc.
+              </a>
+              {' '}|
+              <a
+              className="text-link"
+              href="https://www.harborone.com/personal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Harbor One Bank
+              </a>
+              {' '} | Mark & Elinor Klempner | Dave & Diane Legg</p>
             </li>
             <li>
               <h4>
@@ -81,11 +99,68 @@ export default function Sponsors() {
                 Silver{' '}
               </h4>
               <p>
-                Jeffrey & Suzette Brousseau | Ted & Leslie Burns | Kenny & Jessi Galanif | Lorraine Legg
-                | Lipsett & Sons, Inc. | Mike, Bonnie & Harry Marcel | Jonathan
-                & Amanda Metzger | Morin's Catering | Neurology Partners, P.C. | Pawtucket Credit
-                Union | Janet Salomon | Southampton Bath & Tennis Club | Dr. John Sullivan | Wacky's
-                Landscaping
+                Jeffrey & Suzette Brousseau | Ted & Leslie Burns | {' '}
+              <a
+              className="text-link"
+              href="https://www.coastal1.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Coastal1 Credit Union
+              </a>
+              {' '} Kenny & Jessi Galanif | Lorraine Legg | {' '}
+              <a
+              className="text-link"
+              href="https://lipsettandsons.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Lipsett & Sons, Inc.
+              </a>
+              {' '} | Mike, Bonnie & Harry Marcel | Jonathan & Amanda Metzger | {' '}
+              <a
+              className="text-link"
+              href="https://morins.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Morin's Catering
+              </a>
+              {' '} | {' '}
+              <a
+              className="text-link"
+              href="https://neurology-partners.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Neurology Partners, P.C.
+              </a>
+              {' '} | {' '}
+              <a
+              className="text-link"
+              href="https://www.facebook.com/attleborobestbuddies/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              </a>
+                Janet Salomon | {' '}
+              <a
+              className="text-link"
+              href="https://www.sbtclub.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Southampton Bath & Tennis Club
+              </a>
+              {' '} | Dr. John Sullivan | {' '}
+              <a
+              className="text-link"
+              href="https://www.facebook.com/ShawnTheLandscaper/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Wacky's Landscaping
+              </a>
               </p>
             </li>
             <li>
@@ -95,11 +170,78 @@ export default function Sponsors() {
               </h4>
               <p>
                 {' '}
-                Bluefin Technology Partners, LLC | Downeast Doors - Ken Galanif | Mark Frano, CPA | Germain
-                Plumbing & Heating, Inc. | KC's Classic Burger Bar | Frank & Marty King |
-                The Leary Family | Scott Lipsett | Nap's Maintenance Service Inc. | Omni Plumbing Inc.
-                | Joseph and Kim Piro | Pop Tops Sportswear | Bob Siris | Julianne Townsend |
-                Willis-MacKinnon Insurance Agency, Inc.{' '}
+              <a
+              className="text-link"
+              href="https://www.bluefintechnologypartners.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Bluefin Technology Partners, LLC
+              </a>
+              {' '} | {' '}
+              <a
+              className="text-link"
+              href="https://www.downeastdoors.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Downeast Doors - Ken Galanif
+              </a>
+              {' '} | {' '} Mark Frano, CPA | {' '}
+              <a
+              className="text-link"
+              href="https://www.facebook.com/p/Germaine-Heating-Plumbing-Inc-100067109485790/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Germain Plumbing & Heating, Inc.
+              </a>
+              {' '} | {' '}
+              <a
+              className="text-link"
+              href="https://kcsburgerbar.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                KC's Classic Burger Bar
+              </a>
+              {' '} | Frank & Marty King | The Leary Family | Scott Lipsett | {' '}
+              <a
+              className="text-link"
+              href="https://www.napsmaintenance.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Nap's Maintenance Service Inc.
+              </a>
+              {' '} |
+              <a
+              className="text-link"
+              href="https://omni-plumbing-inc.business.site/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Omni Plumbing Inc.
+              </a>
+              {' '} | Joseph and Kim Piro | {' '}
+              <a
+              className="text-link"
+              href="https://poptopssportswear.com/PTS/shop/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Pop Tops Sportswear
+              </a>
+              {' '} | Bob Siris | Julianne Townsend | {' '}
+              <a
+              className="text-link"
+              href="https://www.durcan-cuddy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                Willis-MacKinnon Insurance Agency, Inc.
+              </a>
+              {' '}
               </p>
             </li>
           </ul>
