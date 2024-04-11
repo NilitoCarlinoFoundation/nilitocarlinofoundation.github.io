@@ -14,30 +14,47 @@ easter standard time.*/
 const eventList = [
 
   {
-    id: 1,
+      id: 1,
+       date: new Date('2024-05-16T18:30:00-04:00'),
+      name: 'Scholarship Night at Attleboro High School',
+       address: 'Attleboro High School, One Blue Pride Way, Attleboro, MA 02703',
+       buttonName: 'Register',
+       url: null
+   },
+
+  {
+      id: 2,
+       date: new Date('2024-06-10T12:00:00-04:00'),
+      name: 'Nilito Carlino Foundation 2nd Annual Golf Tournament',
+       address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
+       buttonName: 'Register',
+       url: 'https://nilito-carlino-foundation-annual-golf-tournament.perfectgolfevent.com/'
+   },
+
+  {
+    id: 3,
     date: new Date('2023-10-01T10:00:00-04:00'),
-    name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
+    name: 'Nilito Carlino Foundation 5K Run & Fitness Walk - 3rd Annual',
     address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
     buttonName: 'Results',
-    url: null
+    url: 'https://my.racewire.com/results/37626'
   },
+   {
+     id: 4,
+     date: new Date('2024-10-06T10:00:00-04:00'),
+     name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
+     address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
+     buttonName: 'Register',
+    url: 'https://racewire.com/register.php?id=14052'
+   },
 
-    // {
-    //   id: 2,
-    //   date: new Date('2020-09-28T09:00:00-04:00'),
-    //   name: 'Run Slow Road Race',
-    //   address: 'Half Marathon Park, 987 La La Lane, Wala Wala, WA 12345',
-    //   buttonName: 'Registration-Closed',
-    //   url: null
-    // },
-    // {
-    //   id: 3,
-    //   date: new Date('2019-06-01T09:00:00-04:00'),
-    //   name: 'What the Hill Road Race',
-    //   address: 'Tall Hill Park, 111 Hill St, Attleboro, MA 12345',
-    //   buttonName: 'Results',
-    //   url: null
-  // }
+  // {
+   //   id: 5,
+   //    date: new Date('2024-06-10T09:00:00-04:00'),
+   //   name: '2nd Annual Golf Tournament',
+   //    address: 'Tall Hill Park, 111 Hill St, Attleboro, MA 12345',
+   //    buttonName: 'Results',
+  //     url: null
 
 ];
 

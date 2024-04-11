@@ -15,17 +15,20 @@ function Event({ name, date, address, buttonName, url }) {
         <div className="Event-name">{name}</div>
         <div className="Event-address">{address}</div>
         <div className="Event-time">{format(date, 'h:mma')}</div>
-        <div className="Event-button-name">
+        {/* If the url is null, no button will render here */}
+        {url &&
+            <div className="Event-button-name">
           {/* When you are ready to post the Register button, uncomment this line and change the link*/}
-          <a
-            href="https://my.racewire.com/results/37626"
-            className="button-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {buttonName}
-          </a>
-        </div>
+            <a
+              href={url}
+              className="button-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {buttonName}
+            </a>
+          </div>
+        }
       </div>
     </div>
   );
