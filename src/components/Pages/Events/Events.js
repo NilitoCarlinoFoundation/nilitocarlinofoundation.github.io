@@ -78,21 +78,22 @@ const eventList = [
 
   {
       id: 8,
+      date: new Date('2024-10-06T10:00:00-04:00'),
+      name: 'Nilito Carlino Foundation - 3rd Annual 5K Run & Fitness Walk',
+      address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
+      buttonName: 'Register',
+      url: 'https://racewire.com/register.php?id=14052'
+   },
+
+  {
+      id: 9,
       date: new Date('2023-10-01T10:00:00-04:00'),
-      name: 'Nilito Carlino Foundation 5K Run & Fitness Walk - 3rd Annual',
+      name: 'Nilito Carlino Foundation 5K Run & Fitness Walk - 2nd Annual',
       address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
       buttonName: 'Results',
       url: 'https://my.racewire.com/results/37626'
   },
 
-  {
-      id: 9,
-      date: new Date('2024-10-06T10:00:00-04:00'),
-      name: 'Nilito Carlino Foundation 5K Run & Fitness Walk',
-      address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
-      buttonName: 'Register',
-      url: 'https://racewire.com/register.php?id=14052'
-   },
 
   // {
    //   id: 5,
