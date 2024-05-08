@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d67bd822.css",
-    "main.js": "/static/js/main.b579f468.js",
+    "main.js": "/static/js/main.d7f83756.js",
     "static/media/ScholarshipRecipientYearTwo.png": "/static/media/ScholarshipRecipientYearTwo.e1f8a3ac6c478761ea32.png",
     "static/media/Nick_Rocco_II.png": "/static/media/Nick_Rocco_II.7a74a0078b42d4676104.png",
     "static/media/Nick_Rocco_DW_II.png": "/static/media/Nick_Rocco_DW_II.d75987b0abd83db011a1.png",
@@ -37,10 +37,10 @@
     "static/media/fjalla-one-cyrillic-ext-400-normal.woff": "/static/media/fjalla-one-cyrillic-ext-400-normal.1284cbb5de0e7ea3596b.woff",
     "index.html": "/index.html",
     "main.d67bd822.css.map": "/static/css/main.d67bd822.css.map",
-    "main.b579f468.js.map": "/static/js/main.b579f468.js.map"
+    "main.d7f83756.js.map": "/static/js/main.d7f83756.js.map"
   },
   "entrypoints": [
     "static/css/main.d67bd822.css",
-    "static/js/main.b579f468.js"
+    "static/js/main.d7f83756.js"
   ]
 }
