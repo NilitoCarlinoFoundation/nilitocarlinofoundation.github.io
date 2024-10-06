@@ -9,7 +9,7 @@ import './Events.css';
 
 /*Whenever you want to add or remove an event, do so in this list. Be sure to put date and time
 stamps for eastern time. Time = hrs mins secs. 08:00 is 8am and minus 04:00 makes it align to
-easter standard time.*/
+easter standard time. ALSO - to hide an event's associated button, simply change the url to null*/
 
 const eventList = [
 
@@ -28,7 +28,7 @@ const eventList = [
       name: 'Nilito Carlino Foundation 2nd Annual Golf Tournament',
        address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
        buttonName: 'Register',
-       url: 'https://nilito-carlino-foundation-annual-golf-tournament.perfectgolfevent.com/'
+       url: null
    },
 
    {
@@ -81,7 +81,7 @@ const eventList = [
       date: new Date('2024-10-06T10:00:00-04:00'),
       name: 'Nilito Carlino Foundation - 3rd Annual 5K Run & Fitness Walk',
       address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
-      buttonName: 'Register',
+      buttonName: 'Results',
       url: 'https://racewire.com/register.php?id=14052'
    },
 
