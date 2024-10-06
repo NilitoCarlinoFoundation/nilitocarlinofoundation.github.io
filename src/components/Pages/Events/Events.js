@@ -82,7 +82,7 @@ const eventList = [
       name: 'Nilito Carlino Foundation - 3rd Annual 5K Run & Fitness Walk',
       address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
       buttonName: 'Results',
-      url: 'https://racewire.com/register.php?id=14052'
+      url: 'https://my.racewire.com/results/38056'
    },
 
   {
