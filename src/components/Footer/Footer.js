@@ -8,7 +8,7 @@ export default function Footer() {
       <div>
         The Nilito Carlino Foundation | 702 Oakhill Ave, Attleboro, MA 02703
       </div>
-      <div>Copyright &#169; 2024</div>
+      <div>Copyright &#169; 2021-2025</div>
     </div>
   );
 }
