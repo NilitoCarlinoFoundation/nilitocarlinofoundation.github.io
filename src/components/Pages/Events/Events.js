@@ -16,7 +16,7 @@ const eventList = [
   {
       id: 1,
        date: new Date('2025-06-09T12:00:00-04:00'),
-       name: 'Nilito Carlino Foundation 2nd Annual Golf Tournament',
+       name: 'Nilito Carlino Foundation 3rd Annual Golf Tournament',
        address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
        buttonName: 'Register',
        url: 'http://ncfgolftournament.com/'
