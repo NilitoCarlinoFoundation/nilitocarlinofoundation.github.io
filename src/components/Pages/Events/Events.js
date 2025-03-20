@@ -15,6 +15,15 @@ const eventList = [
 
   {
       id: 1,
+       date: new Date('2025-05-15T18:30:00-04:00'),
+       name: 'Scholarship Night at Attleboro High School',
+       address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
+       buttonName: 'Register',
+       url: null
+   },
+
+  {
+      id: 2,
        date: new Date('2025-06-09T12:00:00-04:00'),
        name: 'Nilito Carlino Foundation 3rd Annual Golf Tournament',
        address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
@@ -23,7 +32,16 @@ const eventList = [
    },
 
   {
-      id: 2,
+      id: 3,
+       date: new Date('2025-10-19T10:00:00-04:00'),
+       name: 'Nilito Carlino Foundation - 4th Annual 5K Run & Fitness Walk',
+       address: 'Attleboro High School, One Blue Pride Way, Attleboro, MA 02703',
+       buttonName: 'Register',
+       url: null
+   },
+
+  {
+      id: 4,
        date: new Date('2024-05-16T18:30:00-04:00'),
        name: 'Scholarship Night at Attleboro High School',
        address: 'Attleboro High School, One Blue Pride Way, Attleboro, MA 02703',
@@ -32,7 +50,7 @@ const eventList = [
    },
 
   {
-      id: 3,
+      id: 5,
        date: new Date('2024-06-10T12:00:00-04:00'),
        name: 'Nilito Carlino Foundation 2nd Annual Golf Tournament',
        address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
@@ -41,7 +59,7 @@ const eventList = [
    },
 
    {
-      id: 4,
+      id: 6,
       date: new Date('2024-06-22T09:00:00-04:00'),
       name: 'Attleboro Farmers Market',
       address: 'La Salette Shrine, 947 Park Street, Attleboro, MA 02703',
@@ -50,7 +68,7 @@ const eventList = [
   },
 
   {
-      id: 5,
+      id: 7,
       date: new Date('2024-07-20T09:00:00-04:00'),
       name: 'Attleboro Farmers Market',
       address: 'La Salette Shrine, 947 Park Street, Attleboro, MA 02703',
@@ -59,7 +77,7 @@ const eventList = [
   },
 
   {
-      id: 6,
+      id: 8,
       date: new Date('2024-08-10T09:00:00-04:00'),
       name: 'Attleboro Farmers Market',
       address: 'La Salette Shrine, 947 Park Street, Attleboro, MA 02703',
@@ -68,7 +86,7 @@ const eventList = [
   },
 
   {
-      id: 7,
+      id: 9,
       date: new Date('2024-09-07T09:00:00-04:00'),
       name: 'Attleboro Farmers Market',
       address: 'La Salette Shrine, 947 Park Street, Attleboro, MA 02703',
@@ -77,7 +95,7 @@ const eventList = [
   },
 
   {
-      id: 8,
+      id: 10,
       date: new Date('2024-09-21T09:00:00-04:00'),
       name: 'Attleboro Farmers Market',
       address: 'La Salette Shrine, 947 Park Street, Attleboro, MA 02703',
@@ -86,7 +104,7 @@ const eventList = [
   },
 
   {
-      id: 9,
+      id: 11,
       date: new Date('2024-10-06T10:00:00-04:00'),
       name: 'Nilito Carlino Foundation - 3rd Annual 5K Run & Fitness Walk',
       address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
@@ -95,9 +113,9 @@ const eventList = [
    },
 
   {
-      id: 10,
+      id: 12,
       date: new Date('2023-10-01T10:00:00-04:00'),
-      name: 'Nilito Carlino Foundation 5K Run & Fitness Walk - 2nd Annual',
+      name: 'Nilito Carlino Foundation - 2nd Annual 5K Run & Fitness Walk',
       address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
       buttonName: 'Results',
       url: 'https://my.racewire.com/results/37626'

@@ -84,7 +84,9 @@ export default function Sponsors() {
             >
               Harbor One Bank
               </a>
-              {' '} | Mark & Elinor Klempner | Dave & Diane Legg</p>
+              {' '} | Denise & Alfred Hurley Jr. | Mark & Elinor Klempner | Dave & Diane Legg | National Lumber |
+              Southampton Bath & Tennis Club
+              </p>
             </li>
             <li>
               <h4>
