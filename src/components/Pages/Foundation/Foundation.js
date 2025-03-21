@@ -24,7 +24,16 @@ export default function Foundation() {
           <br></br>
           <br></br>
           Nick's family hopes to continue his legacy through encouraging and
-          supporting others in their educational pursuits.
+          supporting others in their educational pursuits. For more information, please listen to{' '}
+          <a
+              className="text-link"
+              href="https://podcasts.apple.com/us/podcast/a-fathers-mission-for-his-son-nilito-carlino-foundation/id1751037582?i=1000671762962"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                A Father's Mission for His Son
+          </a>
+          {' '}on the <i>The Life in Attleboro Podcast</i>.
         </div>
       </div>
 
