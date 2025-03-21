@@ -75,7 +75,7 @@ export default function Sponsors() {
               >
                 Cryan Landscape Contractors Inc.
               </a>
-              {' '}|
+              {' '}|{' '}
               <a
               className="text-link"
               href="https://www.harborone.com/personal"
@@ -84,7 +84,7 @@ export default function Sponsors() {
             >
               Harbor One Bank
               </a>
-              {' '} | Denise & Alfred Hurley Jr. | Mark & Elinor Klempner | Dave & Diane Legg |
+              {' '} | Denise & Alfred Hurley Jr. | Mark & Elinor Klempner | Dave & Diane Legg |{' '}
               <a
               className="text-link"
               href="https://www.national-lumber.com/"
@@ -93,7 +93,7 @@ export default function Sponsors() {
               >
                 National Lumber
               </a>
-              {' '}|
+              {' '}|{' '}
               <a
               className="text-link"
               href="https://www.sbtclub.com/"
