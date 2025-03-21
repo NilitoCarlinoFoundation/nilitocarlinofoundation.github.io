@@ -7,7 +7,7 @@ export default function Contact() {
         <h1>Contact Us</h1>
         <div className="content-text">
           We are excited to hear from you and welcome your questions and
-          feedback about the foundation and our website. Feel free reach out to
+          feedback about the foundation and our website. Feel free to reach out to
           us at: {/*<br />*/}
           <a
             className="text-link"
