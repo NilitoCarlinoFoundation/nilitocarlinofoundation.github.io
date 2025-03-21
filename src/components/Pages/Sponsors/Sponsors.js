@@ -84,8 +84,24 @@ export default function Sponsors() {
             >
               Harbor One Bank
               </a>
-              {' '} | Denise & Alfred Hurley Jr. | Mark & Elinor Klempner | Dave & Diane Legg | National Lumber |
+              {' '} | Denise & Alfred Hurley Jr. | Mark & Elinor Klempner | Dave & Diane Legg |
+              <a
+              className="text-link"
+              href="https://www.national-lumber.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                National Lumber
+              </a>
+              {' '}|
+              <a
+              className="text-link"
+              href="https://www.sbtclub.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Southampton Bath & Tennis Club
+              </a>
               </p>
             </li>
             <li>
