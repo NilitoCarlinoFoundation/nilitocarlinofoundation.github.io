@@ -11,9 +11,9 @@ export default function Contact() {
           us at: {/*<br />*/}
           <a
             className="text-link"
-            href="mailto:nilitocarlinofoundation@gmail.com"
+            href="mailto:team@nilitocf.org"
           >
-            The Nilito Carlino Foundation
+            team@nilitocf.org
           </a>
           <p>
             Please include your name and preferred contact information, and
