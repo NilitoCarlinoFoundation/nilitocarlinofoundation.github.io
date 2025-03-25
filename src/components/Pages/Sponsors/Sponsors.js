@@ -48,7 +48,7 @@ export default function Sponsors() {
           Thank you to our wonderful sponsors for your never-ending support!
           <p>
           Interested in becoming a sponsor?
-          Please email us at <i>nilitocarlinofoundation@gmail.com</i>
+          Please email us at <i>team@nilitocf.org</i>
           </p>
           {/*Wrap ul below in scrolling container*/}
           <ul className="Sponsors-list">
