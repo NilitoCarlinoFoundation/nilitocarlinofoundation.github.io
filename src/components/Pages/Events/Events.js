@@ -79,7 +79,7 @@ const eventList = [
       id: 8,
        date: new Date('2025-10-19T10:00:00-04:00'),
        name: 'Nilito Carlino Foundation - 4th Annual 5K Run & Fitness Walk',
-       address: 'Attleboro High School, One Blue Pride Way, Attleboro, MA 02703',
+       address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
        buttonName: 'Register',
        url: 'http://nicks5k.racewire.com/'
    },
