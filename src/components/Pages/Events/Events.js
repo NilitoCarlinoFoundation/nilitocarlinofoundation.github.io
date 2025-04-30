@@ -17,7 +17,7 @@ const eventList = [
       id: 1,
        date: new Date('2025-05-15T18:30:00-04:00'),
        name: 'Scholarship Night at Attleboro High School',
-       address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
+       address: '1 Blue Pride Way, Attleboro, MA 02703',
        buttonName: 'Register',
        url: null
    },
