@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.d67bd822.css",
-    "main.js": "/static/js/main.f5396417.js",
-    "static/media/ScholarshipRecipientYearTwo.png": "/static/media/ScholarshipRecipientYearTwo.e1f8a3ac6c478761ea32.png",
+    "main.js": "/static/js/main.45d69e10.js",
     "static/media/Nick_Rocco_II.png": "/static/media/Nick_Rocco_II.7a74a0078b42d4676104.png",
     "static/media/Nick_Rocco_DW_II.png": "/static/media/Nick_Rocco_DW_II.d75987b0abd83db011a1.png",
     "static/media/spoons.png": "/static/media/spoons.b2ff384678f41ffcb252.png",
     "static/media/Nick_Chef_BW.png": "/static/media/Nick_Chef_BW.d9fe829cbd50c78d46c9.png",
+    "static/media/Scholarships2025.jpeg": "/static/media/Scholarships2025.966e37a25ba5cff55a45.jpeg",
     "static/media/Nick_logo.png": "/static/media/Nick_logo.6ba407f00611c2c6ed7d.png",
     "static/media/fjalla-one-latin-400-normal.woff": "/static/media/fjalla-one-latin-400-normal.3a6dda3d5ae9a3239371.woff",
     "static/media/fjalla-one-latin-400-normal.woff2": "/static/media/fjalla-one-latin-400-normal.416ff3125cb3343c5447.woff2",
@@ -37,10 +37,10 @@
     "static/media/fjalla-one-cyrillic-ext-400-normal.woff": "/static/media/fjalla-one-cyrillic-ext-400-normal.1284cbb5de0e7ea3596b.woff",
     "index.html": "/index.html",
     "main.d67bd822.css.map": "/static/css/main.d67bd822.css.map",
-    "main.f5396417.js.map": "/static/js/main.f5396417.js.map"
+    "main.45d69e10.js.map": "/static/js/main.45d69e10.js.map"
   },
   "entrypoints": [
     "static/css/main.d67bd822.css",
-    "static/js/main.f5396417.js"
+    "static/js/main.45d69e10.js"
   ]
 }
