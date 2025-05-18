@@ -25,7 +25,7 @@ const eventList = [
   {
       id: 2,
        date: new Date('2025-06-09T12:00:00-04:00'),
-       name: 'Nilito Carlino Foundation 3rd Annual Golf Tournament',
+       name: 'Nilito Carlino Foundation - 3rd Annual Golf Tournament',
        address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
        buttonName: 'Register',
        url: 'http://ncfgolftournament.com/'
@@ -78,7 +78,7 @@ const eventList = [
   {
       id: 8,
        date: new Date('2025-10-19T10:00:00-04:00'),
-       name: 'Nilito Carlino Foundation - 4th Annual 5K Run & Fitness Walk',
+       name: 'Nilito Carlino Foundation - 5th Annual 5K Run & Fitness Walk',
        address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
        buttonName: 'Register',
        url: 'http://nicks5k.racewire.com/'
