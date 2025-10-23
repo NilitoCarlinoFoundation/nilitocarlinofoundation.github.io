@@ -38,7 +38,7 @@ export default function Foundation() {
               className="text-link"
               href="https://www.wpri.com/video/attleboro-man-honors-sons-legacy-through-culinary-scholarships/11172699/"
               target="_blank"
-              rel="noopener noreffer"
+              rel="noopener norefferer"
             >
               Attleboro Man Honors Son's Legacy Through Culinary Scholarships
           </a>
