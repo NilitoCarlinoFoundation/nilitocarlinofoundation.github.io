@@ -33,7 +33,16 @@ export default function Foundation() {
               >
                 A Father's Mission for His Son
           </a>
-          {' '}on the <i>The Life in Attleboro Podcast</i>.
+          {' '}on the <i>The Life in Attleboro Podcast</i>, and watch the {' '}
+          <a
+              className="text-link"
+              href="https://www.wpri.com/video/attleboro-man-honors-sons-legacy-through-culinary-scholarships/11172699/"
+              target="_blank"
+              rel="noopener noreffer"
+            >
+              Attleboro Man Honors Son's Legacy Through Culinary Scholarships
+          </a>
+          {' '}interview on WPRI 12 News.
         </div>
       </div>
 
