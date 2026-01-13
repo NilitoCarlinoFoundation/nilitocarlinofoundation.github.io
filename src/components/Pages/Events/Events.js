@@ -91,7 +91,7 @@ const eventList = [
        name: 'Nilito Carlino Foundation - 5th Annual 5K Run & Fitness Walk',
        address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
        buttonName: 'Results',
-       url: 'https://my.racewire.com/results/38391'
+       url: null
    },
 
   {
@@ -163,7 +163,7 @@ const eventList = [
       name: 'Nilito Carlino Foundation - 3rd Annual 5K Run & Fitness Walk',
       address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
       buttonName: 'Results',
-      url: 'https://my.racewire.com/results/38056'
+      url: null
    },
 
   {
@@ -172,7 +172,7 @@ const eventList = [
       name: 'Nilito Carlino Foundation - 2nd Annual 5K Run & Fitness Walk',
       address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
       buttonName: 'Results',
-      url: 'https://my.racewire.com/results/37626'
+      url: null
   },
 
 
