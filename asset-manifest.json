@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d67bd822.css",
-    "main.js": "/static/js/main.d63f4672.js",
+    "main.css": "/static/css/main.9a2370fd.css",
+    "main.js": "/static/js/main.03e981e9.js",
     "static/media/Nick_Rocco_II.png": "/static/media/Nick_Rocco_II.7a74a0078b42d4676104.png",
     "static/media/Nick_Rocco_DW_II.png": "/static/media/Nick_Rocco_DW_II.d75987b0abd83db011a1.png",
     "static/media/spoons.png": "/static/media/spoons.b2ff384678f41ffcb252.png",
@@ -36,11 +36,11 @@
     "static/media/fjalla-one-cyrillic-ext-400-normal.woff2": "/static/media/fjalla-one-cyrillic-ext-400-normal.e098143d3ecb8a7005d4.woff2",
     "static/media/fjalla-one-cyrillic-ext-400-normal.woff": "/static/media/fjalla-one-cyrillic-ext-400-normal.1284cbb5de0e7ea3596b.woff",
     "index.html": "/index.html",
-    "main.d67bd822.css.map": "/static/css/main.d67bd822.css.map",
-    "main.d63f4672.js.map": "/static/js/main.d63f4672.js.map"
+    "main.9a2370fd.css.map": "/static/css/main.9a2370fd.css.map",
+    "main.03e981e9.js.map": "/static/js/main.03e981e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.d67bd822.css",
-    "static/js/main.d63f4672.js"
+    "static/css/main.9a2370fd.css",
+    "static/js/main.03e981e9.js"
   ]
 }
