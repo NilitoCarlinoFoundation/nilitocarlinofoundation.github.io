@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9a2370fd.css",
-    "main.js": "/static/js/main.03e981e9.js",
+    "main.js": "/static/js/main.fc7e253c.js",
     "static/media/Nick_Rocco_II.png": "/static/media/Nick_Rocco_II.7a74a0078b42d4676104.png",
     "static/media/Nick_Rocco_DW_II.png": "/static/media/Nick_Rocco_DW_II.d75987b0abd83db011a1.png",
     "static/media/spoons.png": "/static/media/spoons.b2ff384678f41ffcb252.png",
@@ -37,10 +37,10 @@
     "static/media/fjalla-one-cyrillic-ext-400-normal.woff": "/static/media/fjalla-one-cyrillic-ext-400-normal.1284cbb5de0e7ea3596b.woff",
     "index.html": "/index.html",
     "main.9a2370fd.css.map": "/static/css/main.9a2370fd.css.map",
-    "main.03e981e9.js.map": "/static/js/main.03e981e9.js.map"
+    "main.fc7e253c.js.map": "/static/js/main.fc7e253c.js.map"
   },
   "entrypoints": [
     "static/css/main.9a2370fd.css",
-    "static/js/main.03e981e9.js"
+    "static/js/main.fc7e253c.js"
   ]
 }
