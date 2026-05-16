@@ -91,7 +91,7 @@ const eventList = [
        name: 'Nilito Carlino Foundation - 6th Annual 5K Run & Fitness Walk',
        address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
        buttonName: 'Register',
-       url: null
+       url: 'https://raceroster.com/events/2026/129816/6th-annual-nicks-5k-run-and-fitness-walk'
    },
 
   {
