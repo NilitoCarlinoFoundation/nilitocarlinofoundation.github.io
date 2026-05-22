@@ -15,7 +15,7 @@ const eventList = [
 
   {
       id: 1,
-       date: new Date('2026-05-29T18:30:00-04:00'),
+       date: new Date('2026-05-28T18:30:00-04:00'),
        name: 'Scholarship Night at Attleboro High School',
        address: '1 Blue Pride Way, Attleboro, MA 02703',
        buttonName: 'Register',
