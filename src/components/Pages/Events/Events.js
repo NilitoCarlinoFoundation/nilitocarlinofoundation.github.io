@@ -28,7 +28,7 @@ const eventList = [
        name: 'Nilito Carlino Foundation - 4th Annual Golf Tournament',
        address: 'Norton Country Club, 188 Oak St., Norton, MA 02766',
        buttonName: 'Register',
-       url: null
+       url: 'https://nilito-carlino-foundation-4th-annual-golf-tournament.perfectgolfevent.com/'
    },
 
   {
