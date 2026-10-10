@@ -90,8 +90,8 @@ const eventList = [
        date: new Date('2026-10-04T10:00:00-04:00'),
        name: 'Nilito Carlino Foundation - 6th Annual 5K Run & Fitness Walk',
        address: 'Highland Park, 104 Mechanic Street, Attleboro, MA 02703',
-       buttonName: 'Register',
-       url: null
+       buttonName: 'Results',
+       url: 'https://results.raceroster.com/v3/events/tez7nzjvbt6fz2sc/race/381293?filter_search='
    },
 
   {
